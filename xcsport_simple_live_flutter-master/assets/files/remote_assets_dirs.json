@@ -1,0 +1,10 @@
+{
+  "ver": 2,
+  "assets_remote_dir": [
+    "http://cn2.img.aisports.io/app/sdkassets",
+    "https://img.juxiangbaojie.com/app/sdkassets",
+    "https://img.aiguoji888.com/app/sdkassets",
+    "https://img.sxlim.com/app/sdkassets",
+    "https://img.czedl.com/app/sdkassets"
+  ]
+}

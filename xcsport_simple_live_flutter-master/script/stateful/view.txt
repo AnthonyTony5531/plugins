@@ -1,0 +1,35 @@
+import 'package:common_component/mvvm/view/stateful_view.dart';
+import 'package:flutter/material.dart';
+
+import '{style_file}.dart';
+import '{vm_file}.dart';
+
+///
+/// {notes}
+///
+class {View} extends StatefulView<{Style}, {VM}> {
+  final {VM} model;
+
+  {View}({Key key,  this.model }) : super(model: model, key: key);
+
+  @override
+  _{View}State createState() => _{View}State();
+}
+
+class _{View}State extends ViewState<{Style}, {VM}, {View}> {
+  {VM} _viewModel;
+  @override
+  {VM} get defaultModel {
+    _viewModel ??= {VM}();
+    return _viewModel;
+  }
+
+  @override
+  Widget render(BuildContext context) {
+    return Material(
+      child: Center(
+        child: Text(''),
+      ),
+    );
+  }
+}

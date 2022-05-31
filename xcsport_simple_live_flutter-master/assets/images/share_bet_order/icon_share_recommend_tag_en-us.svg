@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="18px" viewBox="0 0 49 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_share_recommend_tag_us</title>
+    <g id="icon_share_recommend_tag_us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-3">
+            <path d="M0,0 L41,0 C45.418278,-8.11624501e-16 49,3.581722 49,8 L49,18 L49,18 L14.4987309,18 C10.5468437,18 6.9656288,15.6726648 5.3606154,12.0613847 L0,0 L0,0 Z" id="矩形" fill="#F9544E"></path>
+            <g id="编组" transform="translate(23.000000, 4.000000)">
+                <polygon id="矩形" fill="#FFFFFF" points="2.15789474 0 23 0 20.8421053 10 0 10"></polygon>
+                <text id="win" font-family="FontName" font-size="9" font-weight="normal" fill="#F9544E">
+                    <tspan x="3.77734375" y="8">win</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

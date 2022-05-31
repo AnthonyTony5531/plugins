@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_detail_arrowdown_item</title>
+    <g id="icon_detail_arrowdown_item" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="icon/投注项展开" transform="translate(10.000000, 10.000000) scale(1, -1) translate(-10.000000, -10.000000) ">
+                <path d="M13.0892557,5.58925565 C13.4146926,5.26381874 13.4146926,4.73618126 13.0892557,4.41074435 C12.7638187,4.08530744 12.2361813,4.08530744 11.9107443,4.41074435 L6.91074435,9.41074435 C6.58530744,9.73618126 6.58530744,10.2638187 6.91074435,10.5892557 L11.9107443,15.5892557 C12.2361813,15.9146926 12.7638187,15.9146926 13.0892557,15.5892557 C13.4146926,15.2638187 13.4146926,14.7361813 13.0892557,14.4107443 L8.6785113,10 L13.0892557,5.58925565 Z" id="路径-4" transform="translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

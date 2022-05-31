@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="12px" viewBox="0 0 23 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_share_tag_red_us</title>
+    <g id="icon_share_tag_red_us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(0.000000, 1.000000)">
+            <polygon id="矩形" fill="#F9544E" points="2.15789474 0 23 0 20.8421053 10 0 10"></polygon>
+            <text id="win" font-family="FontName" font-size="9" font-weight="normal" fill="#FFFFFF">
+                <tspan x="4.77734375" y="8">win</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

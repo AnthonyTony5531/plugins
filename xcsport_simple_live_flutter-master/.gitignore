@@ -1,0 +1,174 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+lang/
+
+out_sdk/iOSSDK/Debug/main.dart
+out_sdk/iOSSDK/Debug/FlutterSample/
+out_sdk/iOSSDK/Debug/frameworks.sh
+out_sdk/iOSSDK/Debug/IJKMediaFramework.framework
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+/build/
+ios/Podfile.lock
+pubspec.lock
+.flutter-plugins-dependencies
+pubspec.lock
+
+#ios/Flutter/AppFrameworkInfo.plist
+ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# Android related
+#**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+#**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# SDK
+fast_ai/
+out_sdk/iOSSDK/iOSSDK/XCSDK.framework/
+out_sdk/iOSSDK/iOSSDK/frameworks/
+
+# 废弃文件
+out_sdk/Docs/AISport SDK接入文档iOS_V1.5.1.html
+out_sdk/Docs/AISport SDK接入文档iOS_V1.5.1.pdf
+out_sdk/DocsForEdit/READMEV0.md
+out_sdk/iOSSDK/iOSSDKSample_AG/
+out_sdk/iOSSDK/iOSSDKSample_Debug/
+out_sdk/iOSSDK/iOSSDKSample_ForDebug/
+
+# demo工程
+out_sdk/iOSSDK/iOSSDKSample/Pods/
+out_sdk/iOSSDK/iOSSDKSample/Podfile.lock
+out_sdk/iOSSDK/iOSSDKSample/iOSSDKSample.xcworkspace
+out_sdk/iOSSDK/iOSSDKSample/iOSSDKSample.xcworkspace/
+out_sdk/iOSSDK/iOSSDKSample/package_app/Packaging.log
+out_sdk/iOSSDK/iOSSDKSample/package_app/ExportOptions.plist
+out_sdk/iOSSDK/iOSSDKSample/package_app/DistributionSummary.plist
+out_sdk/iOSSDK/iOSSDKSample/iOSSDKSample.xcodeproj/project.xcworkspace/
+out_sdk/iOSSDK/iOSSDKSample/iOSSDKSample.xcodeproj/xcuserdata/
+
+out_sdk/iOSSDK/iOSSDKDemo-Inner/Pods/
+out_sdk/iOSSDK/iOSSDKDemo-Inner/Podfile.lock
+out_sdk/iOSSDK/iOSSDKDemo-Inner/iOSSDKSample.xcworkspace
+out_sdk/iOSSDK/iOSSDKDemo-Inner/iOSSDKSample.xcworkspace/
+out_sdk/iOSSDK/iOSSDKDemo-Inner/package_app/Packaging.log
+out_sdk/iOSSDK/iOSSDKDemo-Inner/package_app/ExportOptions.plist
+out_sdk/iOSSDK/iOSSDKDemo-Inner/package_app/DistributionSummary.plist
+out_sdk/iOSSDK/iOSSDKDemo-Inner/iOSSDKSample.xcodeproj/project.xcworkspace/
+out_sdk/iOSSDK/iOSSDKDemo-Inner/iOSSDKSample.xcodeproj/xcuserdata/
+out_sdk/iOSSDK/iOSSDKDemo-Inner/iOSSDKSample.xcodeproj/project.xcworkspace/xcuserdata
+
+out_sdk/iOSSDK/iOSSDKSample-swift/Pods/
+out_sdk/iOSSDK/iOSSDKSample-swift/Podfile.lock
+out_sdk/iOSSDK/iOSSDKSample-swift/iOSSDKSample-swift.xcworkspace
+out_sdk/iOSSDK/iOSSDKSample-swift/iOSSDKSample-swift.xcworkspace/
+out_sdk/iOSSDK/iOSSDKSample-swift/package_app/Packaging.log
+out_sdk/iOSSDK/iOSSDKSample-swift/package_app/ExportOptions.plist
+out_sdk/iOSSDK/iOSSDKSample-swift/package_app/DistributionSummary.plist
+out_sdk/iOSSDK/iOSSDKSample-swift/iOSSDKSample-swift.xcodeproj/project.xcworkspace/
+out_sdk/iOSSDK/iOSSDKSample-swift/iOSSDKSample-swift.xcodeproj/xcuserdata/
+
+# SDK壳编译工程
+out_sdk/iOSSDK/XCSDKBuild/Pods/
+out_sdk/iOSSDK/XCSDKBuild/build/
+out_sdk/iOSSDK/XCSDKBuild/Podfile.lock
+out_sdk/iOSSDK/XCSDKBuild/XCSDK.xcworkspace/
+out_sdk/iOSSDK/XCSDKBuild/XCSDK.xcodeproj/project.xcworkspace/
+out_sdk/iOSSDK/XCSDKBuild/XCSDK.xcodeproj/project.xcworkspace/xcuserdata
+out_sdk/iOSSDK/XCSDKBuild/XCSDK.xcodeproj/xcshareddata/
+out_sdk/iOSSDK/XCSDKBuild/XCSDK.xcodeproj/xcuserdata/
+
+# flutter attach
+out_sdk/iOSSDK/Debug/fast_ai/
+out_sdk/iOSSDK/Debug/iOSSDK/
+out_sdk/iOSSDK/Debug/XCSDK/XCSDK.xcodeproj/xcuserdata/
+out_sdk/iOSSDK/Debug/iOSSDKSample/Podfile.lock
+out_sdk/iOSSDK/Debug/iOSSDKSample/Pods/
+out_sdk/iOSSDK/Debug/iOSSDKSample/iOSSDKSample.xcworkspace/
+out_sdk/iOSSDK/Debug/iOSSDKSample/XCAssets.bundle/
+out_sdk/iOSSDK/Debug/iOSSDKSample/XCSDK.framework/
+out_sdk/iOSSDK/Debug/iOSSDKSample/iOSSDKSample.xcodeproj/xcuserdata/
+out_sdk/iOSSDK/Debug/iOSSDKSample/iOSSDKSample.xcodeproj/project.xcworkspace/xcuserdata/
+out_sdk/iOSSDK/Debug/iOSSDKSample/iOSSDKSample.xcodeproj/project.xcworkspace
+
+
+out_sdk/iOSSDK/Debug/frameworks/
+out_sdk/iOSSDK/Debug/FlutterSample/
+
+# flutter module
+fast_ai/.flutter-plugins-dependencies
+fast_ai/assets/
+fast_ai/build/
+fast_ai/lib/
+fast_ai/plugins/
+# 打包工具
+ios/package_app/Runner.xcarchive
+ios/package_app/Runner.ipa
+ios/package_app/Packaging.log
+ios/package_app/ExportOptions.plist
+ios/package_app/DistributionSummary.plist
+# iOS/XCode related
+**/Pods/
+ios/build/
+ios/Flutter/
+ios/Podfile.lock
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+ratiotype-zh-cn.js

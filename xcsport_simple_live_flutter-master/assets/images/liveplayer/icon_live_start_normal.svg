@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_live_start_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_live_start_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico/视频直播/播放" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M25.1760984,19.9438871 C25.9652794,21.159574 25.6207945,22.7856638 24.4066699,23.5758603 C23.9813609,23.8526669 23.4849916,24 22.9777314,24 L9.02196164,24 C7.57389221,24 6.4,22.8245972 6.4,21.3746644 C6.4,20.8667515 6.54714374,20.3697435 6.82359464,19.9438871 L13.8014795,9.19486562 C14.5906605,7.97917872 16.2146605,7.63425059 17.4287851,8.42444708 C17.7362447,8.62455302 17.9983647,8.88701032 18.1982135,9.19486562 L25.1760984,19.9438871 Z" id="路径" transform="translate(16.000000, 16.000000) rotate(90.000000) translate(-16.000000, -16.000000) "></path>
+        </g>
+    </g>
+</svg>

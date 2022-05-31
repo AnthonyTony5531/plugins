@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>ico/选的联赛/移除队伍_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-172.000000, -380.000000)">
+            <g id="ico/移除队伍" transform="translate(172.000000, 380.000000)">
+                <circle id="椭圆形" fill="#F24343" cx="9" cy="9" r="9"></circle>
+                <rect id="矩形" fill="#FFFFFF" x="3.375" y="7.875" width="11.25" height="2.25" rx="1.125"></rect>
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

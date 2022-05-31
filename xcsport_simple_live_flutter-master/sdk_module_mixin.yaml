@@ -1,0 +1,9 @@
+  # 188 资源较少全部放本地.............
+#  fonts:
+    - family: ior188
+      fonts:
+        - asset: assets188/fonts/DIN_Alternate_Bold.ttf
+  module:
+    androidX: true
+    androidPackage: com.xc.module.fast_ai
+    iosBundleIdentifier: com.xc.module.fastAi

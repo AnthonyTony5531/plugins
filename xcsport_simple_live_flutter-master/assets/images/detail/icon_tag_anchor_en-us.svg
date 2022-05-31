@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_tag_anchor</title>
+    <g id="icon_tag_anchor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <rect id="矩形" fill="#FF4000" x="0" y="0" width="16" height="10"></rect>
+            <polygon id="路径-94" fill="#D63600" points="9.09494702e-13 10 9.09494702e-13 12 2.86655105 10"></polygon>
+        </g>
+        <text id="HOT" font-family="DINAlternate-Bold, DIN Alternate" font-size="8" font-weight="bold" letter-spacing="0.153333314" fill="#FFFFFF">
+            <tspan x="0.811015654" y="8">HOT</tspan>
+        </text>
+    </g>
+</svg>

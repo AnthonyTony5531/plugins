@@ -1,0 +1,52 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+# flutter attach 流程
+# 1、运行module到目标设备
+# 2、删除目标设备App，删除pod相关文件，Sample工程重新pod install
+# 3、运行Sample工程
+
+workspace 'iOSSDKSample'
+
+def common_pods
+    pod 'MBProgressHUD', '~> 1.1.0'
+    pod 'AFNetworking', '~> 4.0.1'
+    pod 'SDWebImage', '~> 5.8.0'
+    pod 'UMCommon'
+    pod 'UMDevice'
+    
+    flutter_application_path = '../fast_ai'
+    load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+    install_all_flutter_pods(flutter_application_path)
+end
+
+def app_pods
+  project 'iOSSDKSample.xcodeproj'
+  common_pods
+end
+
+target 'iOSSDKSample' do
+  app_pods
+end
+
+target 'iOSSDKSample-QJ' do
+  app_pods
+end
+
+target 'iOSSDKSample-GJ' do
+  app_pods
+end
+
+target 'iOSSDKSample-CN2' do
+  app_pods
+end
+
+target 'iOSSDKSample-GJTF' do
+  app_pods
+end
+
+target 'XCSDK' do
+  project '../XCSDK/XCSDK.xcodeproj'
+  common_pods
+end

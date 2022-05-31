@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="50px" viewBox="0 0 46 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>tag_rank_no1_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.7002314%" y1="110.954435%" x2="52.6611579%" y2="-2.57799135%" id="linearGradient-1">
+            <stop stop-color="#FFD342" stop-opacity="0.610850087" offset="0%"></stop>
+            <stop stop-color="#FDB03C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="18.6527495%" y1="0%" x2="80.787951%" y2="99.107897%" id="linearGradient-2">
+            <stop stop-color="#FFD342" offset="0%"></stop>
+            <stop stop-color="#FDB03C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="9.92593561%" y1="0%" x2="89.3590605%" y2="99.107897%" id="linearGradient-3">
+            <stop stop-color="#FFD342" offset="0%"></stop>
+            <stop stop-color="#FDB03C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="7.5128816%" x2="99.107897%" y2="91.7290607%" id="linearGradient-4">
+            <stop stop-color="#FFD342" offset="0%"></stop>
+            <stop stop-color="#FDB03C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="tag_rank_no1_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-5">
+            <g id="编组-10" transform="translate(0.000000, 0.000000)">
+                <polygon id="1" fill="url(#linearGradient-1)" transform="translate(35.865003, 24.891121) rotate(8.000000) translate(-35.865003, -24.891121) " points="35.627433 1.99820145 42.7300053 1 42.6223 47.6922925 34.8669036 48.7822423 35.2983603 12.5884458 29 17.3436423 29.5222783 6.50215424"></polygon>
+                <path d="M13.8754405,19.7413111 C14.0295631,18.7395139 14.8915489,18 15.9051324,18 L20.8143754,18 C21.9485316,18 22.8679468,18.9194152 22.8679468,20.0535714 C22.8679468,20.1581143 22.8599638,20.2625045 22.8440673,20.3658317 L21.4539574,29.401546 C21.2998347,30.4033432 20.437849,31.1428571 19.4242655,31.1428571 L14.5150225,31.1428571 C13.3808663,31.1428571 12.461451,30.2234419 12.461451,29.0892857 C12.461451,28.9847429 12.4694341,28.8803526 12.4853306,28.7770254 L13.8754405,19.7413111 Z M19.0719059,28.6785714 L20.3356422,20.4642857 L16.2574919,20.4642857 L14.9937557,28.6785714 L19.0719059,28.6785714 Z" id="路径-4备份" fill="url(#linearGradient-2)"></path>
+                <polygon id="路径-3" fill="url(#linearGradient-3)" points="6.87768429 31.1428571 9.28267395 31.1428571 11.7662069 18 9.16221883 18 7.58057517 26.2437795 4.98709376 18 2.58300566 18 9.43772264e-14 31.1428571 2.65447379 31.1428571 4.12863725 23.6878539"></polygon>
+                <polygon id="路径-4" fill="url(#linearGradient-4)" points="24.6513019 28 24.1564023 31.2486864 27.1229815 31.2486864 27.6806315 28.3818215"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

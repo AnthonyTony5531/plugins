@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_setting_language_vietnam</title>
+    <g id="icon_setting_language_vietnam" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="越南" fill-rule="nonzero">
+            <path d="M0,12 C0,18.627417 5.372583,24 12,24 C18.627417,24 24,18.627417 24,12 C24,5.372583 18.627417,0 12,0 C5.372583,0 0,5.372583 0,12 Z" id="路径" fill="#F42F4C"></path>
+            <polygon id="路径" fill="#FFE62E" points="12 14.7854454 15.9598494 17.6010038 14.4542033 13.0238394 18.3989962 10.1028858 13.5207026 10.1028858 12 5.60100377 10.5244668 10.1028858 5.60100377 10.1028858 9.53074027 13.0238394 8.04015056 17.6010038"></polygon>
+        </g>
+    </g>
+</svg>

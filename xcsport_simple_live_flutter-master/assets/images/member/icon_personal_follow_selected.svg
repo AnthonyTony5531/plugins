@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="48px" viewBox="0 0 55 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_personal_follow_selected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_personal_follow_selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/关注/已关注" fill="#1A2952">
+            <g transform="translate(22.000000, 8.000000)" fill-rule="evenodd" id="路径">
+                <path d="M4.89279512,10.3950617 L1.40378759,6.67372134 C1.26047923,6.52087008 1.08961156,6.47383892 0.891184594,6.53262787 C0.692757626,6.59141681 0.568740771,6.72369195 0.519134029,6.92945326 C0.469527287,7.13521458 0.516378099,7.32039976 0.659686465,7.48500882 L4.89279512,12 L13.3590124,2.97001764 C13.4582259,2.85243974 13.5050767,2.71722516 13.4995649,2.5643739 C13.494053,2.41152263 13.4389344,2.2792475 13.334209,2.1675485 C13.2294837,2.0558495 13.1082228,2 12.9704263,2 C12.8326298,2 12.7086129,2.05291005 12.5983757,2.15873016 L4.89279512,10.3950617 Z"></path>
+            </g>
+            <text id="已关注" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" letter-spacing="0.229999971">
+                <tspan x="10" y="37">已关注</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

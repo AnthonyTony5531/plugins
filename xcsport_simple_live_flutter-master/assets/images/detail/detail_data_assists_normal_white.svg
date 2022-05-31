@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_data_corner_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_data_corner_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico/角球">
+            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+            <g id="角球" stroke-width="1" transform="translate(2.000000, 1.000000)">
+                <path d="M7.58318767,14.9973584 L13.4615385,14.9943249 C13.7589226,14.9943249 14,15.2180237 14,15.4939702 C14,15.7699166 13.7589226,15.9936155 13.4615385,15.9936155 L1.08943545,16 C1.04868296,16 1.00810541,15.9978545 0.967887232,15.9936155 L0,15.9936155 L0,7 L1.07692308,7 L1.07692308,13.2180166 L4.79058962,8.05491561 C4.95567767,7.82539413 5.29002676,7.76351304 5.53737922,7.91670034 C5.78473167,8.06988764 5.85142015,8.3801344 5.6863321,8.6096559 L3.82605697,11.1959916 C5.54365636,11.9695889 6.89709152,13.3304844 7.58318767,14.9973584 Z M6.41590515,14.9979607 C5.77003601,13.6898632 4.63190036,12.6346722 3.22148946,12.0365202 L1.08943545,15.0007094 L6.41590515,14.9979607 Z" id="形状结合" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <polygon id="路径" fill="#FF4000" points="0 0 0 8 10 4.17032531"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

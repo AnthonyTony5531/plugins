@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="16px" viewBox="0 0 26 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>比分版/盘_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-21.000000, -725.000000)">
+            <g id="icon/16/出局" transform="translate(21.000000, 725.000000)">
+                <path d="M4.64431353,1 L21.3556865,1 C22.9705092,1 23.5564825,1.186 24.1469841,1.534 C24.7374858,1.883 25.2002869,2.394 25.5163683,3.046 C25.831544,3.698 26,4.345 26,6.128 L26,9.872 C26,11.655 25.831544,12.302 25.5163683,12.954 C25.2075239,13.598193 24.7304151,14.1249907 24.1469841,14.466 C23.5564825,14.814 22.9705092,15 21.3556865,15 L4.64431353,15 C3.02949078,15 2.44351753,14.814 1.85301589,14.466 C1.26958488,14.1249907 0.792476124,13.598193 0.483631713,12.954 C0.16845599,12.302 0,11.655 0,9.872 L0,6.128 C0,4.345 0.16845599,3.698 0.483631713,3.046 C0.792476124,2.40180701 1.26958488,1.87500931 1.85301589,1.534 C2.44351753,1.186 3.02949078,1 4.64431353,1 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero" opacity="0.1"></path>
+                <text id="出局" font-family="WeibeiSC-Bold, Weibei SC" font-size="12" font-weight="bold" line-spacing="12" fill="#D2E4FF">
+                    <tspan x="0" y="15">盘</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

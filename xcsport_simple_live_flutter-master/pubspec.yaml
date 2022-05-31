@@ -1,0 +1,229 @@
+name: fast_ai
+description: A fast ai project.
+version: 3.4.0+18
+publish_to: none
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+# 1、因插件没有支持flutter2.0+的版本，现将源码迁移到migrate_plugins
+# 插件：flushbar、marquee_flutter、flutter_gifimage、dragablegridview_flutter、gbk2utf8
+#
+# 2、screen没有支持2.0的版本，不能将源码直接迁移到本工程，因SDK打包脚本还不兼容本地插件，因此迁移到gitlab
+#
+# 3、git插件支持2.0，分支统一命名为：dev_f2、master_f2、bate_f2
+# 插件：umeng_common_sdk、flutter_cupertino_date_picker、nettool、common_component、webview_flutter、
+#
+# 4、flutter_html 移除,最新版本与web_flutter冲突,更新Ai_html代码
+#
+# 5、xcpageslider自定义插件，现将源码迁移到migrate_plugins
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # 以下插件再升打包会有问题
+  path_provider: 2.0.6
+  shared_preferences: 2.0.8
+  url_launcher: 6.0.15
+  image_picker: 0.8.4+4
+
+  provider: ^6.0.1
+  cupertino_icons: ^1.0.4
+  video_player: ^2.2.17
+  flutter_cache_manager: ^3.3.0
+  cached_network_image: ^3.2.0
+  transparent_image: ^2.0.0
+  flutter_image_compress: ^1.1.0
+  sqflite: ^2.0.0+4
+  crypto: ^3.0.1
+  flutter_svg: ^0.23.0+1
+  rxdart: ^0.27.3
+  intl: ^0.17.0
+  sprintf: ^6.0.0
+  event_bus: ^2.0.0
+  flutter_gallery_assets: ^1.0.2
+
+  dio: ^4.0.4
+  flutter_native_image: ^0.0.6+1
+  connectivity: ^3.0.6
+  web_socket_channel: ^2.1.0
+  charts_flutter: ^0.12.0
+  shelf_web_socket: ^1.0.1
+  flutter_keyboard_visibility: ^5.1.0
+  photo_view: ^0.13.0
+  string_unescape: ^2.0.0
+  audioplayers: ^0.20.1
+  flutter_vibrate: ^1.3.0
+  orientation: ^1.3.0
+  uni_links: ^0.5.1
+  share: ^2.0.4
+  archive: ^3.1.6
+  device_info: ^2.0.3
+  synchronized: ^3.0.0
+  path_drawing: ^0.5.1+1
+  wakelock: ^0.5.6
+  quiver: ^3.0.1+1
+  svgaplayer_flutter: ^2.1.2
+  auto_size_text: ^3.0.0
+  vm_service: ^7.5.0
+  fijkplayer: ^0.10.1
+  webview_flutter: ^3.0.1
+  screen:
+    git:
+      url: http://192.168.20.27/flutter_plugin/screen.git
+      ref: master_f2
+  xc_package_info:
+    git:
+      url: http://192.168.20.27/sam/package_info.git
+      ref: master_f2
+  common_component:
+    git:
+      url: http://192.168.20.27/flutter_plugin/common-component.git
+      ref: dev_f2
+  xc_install_plugin:
+    git:
+      url: http://192.168.20.27/flutter_plugin/xc_install_plugin.git
+      ref: master_f2
+  volume_plugin:
+    git:
+      url: http://192.168.20.27/flutter_plugin/volume_plugin.git
+      ref: master_f2
+  flutterswiper:
+    git:
+      url: http://192.168.20.27/flutter_plugin/xc_swiper.git
+      ref: master_f2
+  nettool:
+    git:
+      url: http://192.168.20.27/flutter_plugin/nettool.git
+      ref: master_f2
+  flutter_cupertino_date_picker:
+    git:
+      url: http://192.168.20.27/flutter_plugin/xc_flutter_cupertino_date_picker.git
+      ref: master_f2
+#  umeng_common_sdk:
+#    git:
+#      url: http://192.168.20.27/flutter_plugin/umeng_common_sdk.git
+#      ref: master_f2
+
+  #permission_handler: 8.1.6 # 原生需要注入相应的宏，add to app模式现在没找到方法注入，先修改源码的.podspec文件默认全部注入
+  permission_handler:
+    git:
+      url: http://192.168.20.27/flutter_plugin/permission_handler.git
+      ref: master_f2
+#  flutter_virtual_sports:
+##    path: ../plugins/flutter-virtual-sports
+#    git:
+#      url: http://192.168.20.27/front-end-app/flutter-virtual-sports.git
+#      ref: dev_f2
+  flutter_sdk_games:
+    git:
+      url: http://192.168.20.27/front-end-app/flutter-sdk-games.git
+      ref: dev_f2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    # 以下为SDK保留资源路径
+    - assets/images/sdk/ # 系统维护页
+    - assets/images/default/ # 系统维护页503图标
+    - assets/files/ # remote_assets_dirs.json文件
+    - assets/music/ # mp3
+    - assets/images/launch/ # SDK资源下载页面
+    - assets/images/home_icon/ # 一级页面底部动画
+    - assets/images/collect/ # 收藏动画
+    - assets/images/bet/share/ # 详情聊天室 跟投动画
+    - assets/images/detail/chatroom/redbag/ # 红包动画
+    - assets/images/kit/ # 性能工具icon
+    #   - assets/images/keep/
+
+    #startLine 文件夹请不要添加到上面
+    - assets/files/media/
+    - assets/music/
+    - assets/images/
+    - assets/images/detail/chatroom/
+
+    - assets/images/detail/icon_baseball/
+    - assets/images/detail/chatroom/emoji/
+    - assets/images/detail/head/
+    - assets/images/detail/more/
+    - assets/images/match/
+    - assets/images/matchStatus/
+    - assets/images/detail/
+    - assets/images/search/
+    - assets/images/matchlist/
+    - assets/images/liveplayer/
+    - assets/images/public/
+    - assets/images/mine/
+    - assets/images/score/
+    - assets/images/hot/
+    - assets/images/member/
+    - assets/images/guide/
+    - assets/images/nodataicon/
+    - assets/images/sports_type/
+    - assets/images/sports_type/shawdow/
+    - assets/images/member/follow/
+    - assets/images/member/constellation/
+    - assets/images/member/drawer/
+    - assets/images/member/personal/
+    - assets/images/member/setting/
+    #- assets/images/launch/
+    - assets/images/outs/
+    - assets/images/vlog/
+    - assets/images/push/
+    - assets/images/sdk/new/
+    - assets/images/sdk_image/
+    - assets/images/sdk_image/personal/
+    - assets/images/sports_type/shorcuts/
+    - assets/images/message/
+    - assets/images/progress/
+    - assets/images/attention/
+    - assets/images/home_icon/
+    #    - assets/images/home_icon/icon_home_betlist_selected/
+    #    - assets/images/home_icon/icon_home_find_selected/
+    #    - assets/images/home_icon/icon_home_mine_selected/
+    #    - assets/images/home_icon/icon_home_match_selected/
+    - assets/images/img_detail_bg/
+    - assets/images/aigame/
+    - assets/images/recommend/
+    - assets/images/bet/
+    - assets/images/match_detail/
+    - assets/images/square/
+    - assets/images/gift/
+    - assets/images/wallet/
+    - assets/images/rank/
+    - assets/images/leagues/
+    - assets/images/activity/
+    - assets/images/virtual_game/
+    - assets/images/international/
+    - assets/images/international/gif/
+    - assets/images/international/level/
+    - assets/images/new_rank/
+    - assets/images/share_bet_order/
+
+  #endLine for android 请不要修改和删除
+  fonts:
+    - family: Money
+      fonts:
+        - asset: assets/fonts/kabm.ttf
+    - family: Score
+      fonts:
+        - asset: assets/fonts/Score_Bold.ttf
+    - family: Ratio
+      fonts:
+        - asset: assets/fonts/Ratio_Black.otf
+    - family: VisbyCF
+      fonts:
+        - asset: assets/fonts/VisbyCF_Bold.otf
+    - family: HYYakuHei
+      fonts:
+        - asset: assets/fonts/HYYakuHei-HEW.ttf
+    - family: YouSheBiaoTiHei
+      fonts:
+        - asset: assets/fonts/YouSheBiaoTiHei.ttf
+#endLine for ios 请不要修改和删除

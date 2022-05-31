@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'XCSDK' do
+   pod 'XCSDK_iOS', :path => '../iOSSDK/iOSSDK.podspec'
+   pod 'MBProgressHUD', '~> 1.1.0'
+   pod 'AFNetworking', '~> 4.0.1'
+   pod 'SDWebImage', '~> 5.8.0'
+end

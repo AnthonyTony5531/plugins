@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>head_anchor_bet_3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FED5C6" offset="0%"></stop>
+            <stop stop-color="#FF7D6E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="head_anchor_bet_3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18,36 C27.9411255,36 36,27.9411255 36,18 C36,8.0588745 27.9411255,0 18,0 C8.0588745,0 0,8.0588745 0,18 C0,27.9411255 8.0588745,36 18,36 Z M18,34 C9.163444,34 2,26.836556 2,18 C2,9.163444 9.163444,2 18,2 C26.836556,2 34,9.163444 34,18 C34,26.836556 26.836556,34 18,34 Z" id="椭圆形备份-15" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+    </g>
+</svg>

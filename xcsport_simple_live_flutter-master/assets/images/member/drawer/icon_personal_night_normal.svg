@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_personal_night_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_personal_night_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-/个人中心/深色" fill="#2F2A29">
+            <path d="M5.81245996,19.38754 C7.35830266,20.4067875 9.20987522,21 11.2,21 C16.6123905,21 21,16.6123905 21,11.2 C21,9.20987522 20.4067875,7.35830266 19.38754,5.81245996 C22.0458078,7.565182 23.8,10.5777342 23.8,14 C23.8,19.4123905 19.4123905,23.8 14,23.8 C10.5777342,23.8 7.565182,22.0458078 5.81245996,19.38754 Z M7,16.8 C6.22680135,16.8 5.6,16.1731986 5.6,15.4 C5.6,14.6268014 6.22680135,14 7,14 C7.77319865,14 8.4,14.6268014 8.4,15.4 C8.4,16.1731986 7.77319865,16.8 7,16.8 Z" id="形状结合" transform="translate(14.700000, 14.806230) scale(-1, 1) translate(-14.700000, -14.806230) "></path>
+        </g>
+    </g>
+</svg>

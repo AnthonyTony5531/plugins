@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bv4-0g-soj" customClass="XCLaunchTitleView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新万博体育" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSF-z0-jbV">
+                    <rect key="frame" x="153.5" y="431" width="107" height="26"/>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加喜爱的比赛，不错过每一次的精彩！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zh0-cj-POd">
+                    <rect key="frame" x="96.5" y="465" width="221" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前进度：0%   资源总大小：0MB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDm-8y-0Cs">
+                    <rect key="frame" x="127.5" y="6" width="159" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zh0-cj-POd" secondAttribute="trailing" constant="8" id="8Cs-bi-kw4"/>
+                <constraint firstItem="zh0-cj-POd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bv4-0g-soj" secondAttribute="leading" constant="8" id="KRX-V2-XFP"/>
+                <constraint firstItem="fSF-z0-jbV" firstAttribute="centerX" secondItem="bv4-0g-soj" secondAttribute="centerX" id="QK4-ft-ixe"/>
+                <constraint firstItem="fSF-z0-jbV" firstAttribute="centerY" secondItem="bv4-0g-soj" secondAttribute="centerY" constant="-4" id="SMs-Ne-FRB"/>
+                <constraint firstItem="zh0-cj-POd" firstAttribute="top" secondItem="fSF-z0-jbV" secondAttribute="bottom" constant="8" id="aJK-JR-T2Q"/>
+                <constraint firstItem="vDm-8y-0Cs" firstAttribute="top" secondItem="bv4-0g-soj" secondAttribute="top" constant="6" id="nfm-ye-FDY"/>
+                <constraint firstItem="vDm-8y-0Cs" firstAttribute="centerX" secondItem="bv4-0g-soj" secondAttribute="centerX" id="seN-jP-F37"/>
+                <constraint firstItem="zh0-cj-POd" firstAttribute="centerX" secondItem="fSF-z0-jbV" secondAttribute="centerX" id="ztI-dW-ubl"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="progressLabel" destination="vDm-8y-0Cs" id="DWO-rC-DTZ"/>
+                <outlet property="subTitleLabel" destination="zh0-cj-POd" id="s17-dY-R06"/>
+                <outlet property="titleLabel" destination="fSF-z0-jbV" id="Zwt-XJ-dHE"/>
+            </connections>
+            <point key="canvasLocation" x="-572.46376811594212" y="-45.535714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

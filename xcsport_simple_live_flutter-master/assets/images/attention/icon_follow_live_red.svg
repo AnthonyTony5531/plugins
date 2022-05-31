@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="10px" viewBox="0 0 28 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_follow_live_red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.617341478,0.124160741 L27.3826585,0.124160741 C25.6222657,5.84323871 20.2965647,10 14,10 C7.70343534,10 2.37773429,5.84323871 0.617341478,0.124160741 Z" id="path-1"></path>
+    </defs>
+    <g id="icon_follow_live_red" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="全局/足球logo/曼彻斯特联">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="形状结合" fill="#EBEBEB" xlink:href="#path-1"></use>
+            <rect id="矩形" fill="#FF4000" opacity="0.900000036" mask="url(#mask-2)" x="-3" y="0.124160741" width="34" height="9.87583926"></rect>
+            <text id="LIVE" mask="url(#mask-2)" font-family="PingFangSC-Medium, PingFang SC" font-size="6" font-weight="400" letter-spacing="0.09313448" fill="#FFFFFF">
+                <tspan x="7.5" y="6.52431831">LIVE</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="6px" viewBox="0 0 6 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>horn_datachose_f5</title>
+    <defs>
+        <path d="M0,6 L5.48786797,0.512132034 C5.60502525,0.394974747 5.79497475,0.394974747 5.91213203,0.512132034 C5.96839295,0.568392948 6,0.644699122 6,0.724264069 L6,6 L6,6 L0,6 Z" id="path-1"></path>
+        <filter x="-116.7%" y="-76.3%" width="333.3%" height="326.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.200502622 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="horn_datachose_f5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="路径-7">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#F5F5F5" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

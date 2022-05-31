@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_detail_back_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C8DADB" offset="0%"></stop>
+            <stop stop-color="#FCFDFC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon_detail_back_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico/16/左" fill="url(#linearGradient-1)">
+            <path d="M19.2071068,6.29289322 C19.3880712,6.47385763 19.5,6.72385763 19.5,7 L19.5,17 C19.5,17.5522847 19.0522847,18 18.5,18 L18.1,18 C17.5477153,18 17.1,17.5522847 17.1,17 L17.1,8.4 L8.5,8.4 C7.94771525,8.4 7.5,7.95228475 7.5,7.4 L7.5,7 C7.5,6.44771525 7.94771525,6 8.5,6 L18.5,6 C18.7761424,6 19.0261424,6.11192881 19.2071068,6.29289322 Z" id="形状结合" transform="translate(13.500000, 12.000000) scale(-1, 1) rotate(-315.000000) translate(-13.500000, -12.000000) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+import 'package:common_component/mvvm/view/stateless_view.dart';
+import 'package:flutter/material.dart';
+
+import '{vm_file}.dart';
+import '{style_file}.dart';
+
+///
+/// {notes}
+///
+class {View} extends StatelessView<{Style}, {VM}>{
+
+  final {VM} model;
+
+  const {View}({Key key,@required this.model}):super(key: key, model: model);
+
+  @override
+  Widget render(BuildContext context, {VM} viewModel) {
+   return Container();
+  }
+
+}

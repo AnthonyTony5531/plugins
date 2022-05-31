@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_arrow_right</title>
+    <g id="icon_arrow_right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/inter" fill="#222222">
+            <path d="M6,2.53553391 C6.27614237,2.53553391 6.5,2.75939153 6.5,3.03553391 L6.5,7.03553391 C6.5,7.31167628 6.27614237,7.53553391 6,7.53553391 C5.72385763,7.53553391 5.5,7.31167628 5.5,7.03553391 L5.5,3.53553391 L2,3.53553391 C1.72385763,3.53553391 1.5,3.31167628 1.5,3.03553391 C1.5,2.75939153 1.72385763,2.53553391 2,2.53553391 L6,2.53553391 L6,2.53553391 Z" id="形状结合" transform="translate(4.000000, 5.035534) rotate(-315.000000) translate(-4.000000, -5.035534) "></path>
+        </g>
+    </g>
+</svg>

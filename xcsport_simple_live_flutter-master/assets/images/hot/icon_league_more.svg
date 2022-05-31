@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_league_more</title>
+    <defs>
+        <linearGradient x1="-4.19138835%" y1="-16.8414081%" x2="44.67251%" y2="61.054158%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="2" y="2" width="7" height="7" rx="1"></rect>
+        <rect id="path-3" x="2" y="11" width="7" height="7" rx="1"></rect>
+        <rect id="path-4" x="11" y="2" width="7" height="7" rx="1"></rect>
+        <rect id="path-5" x="11" y="11" width="7" height="7" rx="1"></rect>
+    </defs>
+    <g id="icon_league_more" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <g id="矩形">
+                <use fill="#E65773" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <g id="矩形备份-2">
+                <use fill="#64CC72" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+            </g>
+            <g id="矩形备份">
+                <use fill="#4A8DDF" xlink:href="#path-4"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+            </g>
+            <g id="矩形备份-3">
+                <use fill="#EABC65" xlink:href="#path-5"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="33px" viewBox="0 0 43 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>投注单/盘口关闭_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-180.000000, -828.000000)">
+            <g id="ico/盘口关闭备份" transform="translate(180.000000, 828.000000)">
+                <rect id="矩形" stroke="#19263B" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="38" height="28" rx="8"></rect>
+                <rect id="矩形" fill="#19263B" x="8" y="8" width="24" height="2" rx="1"></rect>
+                <rect id="矩形备份" fill="#19263B" x="8" y="16" width="16" height="2" rx="1"></rect>
+                <circle id="椭圆形" fill="#F05050" cx="34.5" cy="24.5" r="8.5"></circle>
+                <g id="编组" stroke-width="1" transform="translate(28.000000, 18.000000)" fill="#FFFFFF">
+                    <path d="M7.56396103,7.5 L7.56396103,10 C7.56396103,10.5522847 7.11624578,11 6.56396103,11 C6.01167628,11 5.56396103,10.5522847 5.56396103,10 L5.56396103,7.5 L3.06396103,7.5 C2.51167628,7.5 2.06396103,7.05228475 2.06396103,6.5 C2.06396103,5.94771525 2.51167628,5.5 3.06396103,5.5 L5.56396103,5.5 L5.56396103,3 C5.56396103,2.44771525 6.01167628,2 6.56396103,2 C7.11624578,2 7.56396103,2.44771525 7.56396103,3 L7.56396103,5.5 L10.063961,5.5 C10.6162458,5.5 11.063961,5.94771525 11.063961,6.5 C11.063961,7.05228475 10.6162458,7.5 10.063961,7.5 L7.56396103,7.5 Z" id="形状结合" transform="translate(6.563961, 6.500000) rotate(-315.000000) translate(-6.563961, -6.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

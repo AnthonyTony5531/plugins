@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_setting_check_selected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_setting_check_selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="el-icon-check" fill="#11D664">
+            <g id="check" transform="translate(4.500000, 6.750000)">
+                <path d="M5.32337992,9.44444444 L1.10069886,5.25793651 C0.9272554,5.08597884 0.720457433,5.03306878 0.480304956,5.09920635 C0.240152478,5.16534392 0.0900571792,5.31415344 0.0300190597,5.54563492 C-0.0300190597,5.7771164 0.0266836086,5.98544974 0.200127065,6.17063492 L5.32337992,11.25 L15.5698856,1.09126984 C15.6899619,0.958994709 15.7466645,0.806878307 15.7399936,0.634920635 C15.7333227,0.462962963 15.6666137,0.314153439 15.5398666,0.188492063 C15.4131194,0.0628306878 15.2663596,0 15.099587,0 C14.9328145,0 14.7827192,0.0595238095 14.6493011,0.178571429 L5.32337992,9.44444444 Z" id="路径"></path>
+            </g>
+        </g>
+    </g>
+</svg>

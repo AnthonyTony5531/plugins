@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script  src="xcfluttersdk.js"></script>
+    <script>
+        function toast(){
+            xcflutterSDK.request(new XCJSRequestParam("common", "toast", 
+            {
+                'toast':'test',
+            },  function(_data){
+                fresh(_data);
+            }));
+        }
+        function netState(){
+            xcflutterSDK.request(new XCJSRequestParam("common", "netState", null,  function(_data){
+                fresh(_data);
+            }));
+            
+        }
+
+        function closeFlutter(){
+           xcflutterSDK.request(new XCJSRequestParam("common", "close", null,  function(_data){
+                fresh(_data);
+            }));
+       
+        }
+
+
+        function userinfo(){
+            xcflutterSDK.request(new XCJSRequestParam("common", "userinfo", null,  function(_data){
+                fresh(_data);
+            }));
+        }
+
+        function fresh(_data){
+            document.getElementById("freshId").innerText = _data;
+        }
+    </script>
+</head>
+<body>
+
+<button onclick="toast()">toast</button>
+<button onclick="netState()">netState</button>
+<button onclick="closeFlutter()">close</button>
+<button onclick="userinfo()">userinfo</button>
+<button onclick="testLocation()">测试js</button>
+<div id="freshId"></div>
+
+</body>
+</html>
+

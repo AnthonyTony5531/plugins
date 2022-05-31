@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="46px" viewBox="0 0 84 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>img_detail_bet_lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.566987298" y="0" width="83" height="46" rx="8"></rect>
+    </defs>
+    <g id="img_detail_bet_lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矩形备份-17">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="蒙版"></g>
+            <rect id="矩形" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(-2.183013, 24.129165) rotate(-60.000000) translate(2.183013, -24.129165) " x="-32.1830127" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-21" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(-9.000000, 24.129165) rotate(-60.000000) translate(9.000000, -24.129165) " x="-39" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-3" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(4.566987, 24.129165) rotate(-60.000000) translate(-4.566987, -24.129165) " x="-25.4330127" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-4" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(11.566987, 24.129165) rotate(-60.000000) translate(-11.566987, -24.129165) " x="-18.4330127" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-5" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(18.566987, 24.129165) rotate(-60.000000) translate(-18.566987, -24.129165) " x="-11.4330127" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-6" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(25.566987, 24.129165) rotate(-60.000000) translate(-25.566987, -24.129165) " x="-4.4330127" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-7" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(32.566987, 24.129165) rotate(-60.000000) translate(-32.566987, -24.129165) " x="2.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-8" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(39.566987, 24.129165) rotate(-60.000000) translate(-39.566987, -24.129165) " x="9.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-9" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(46.566987, 24.129165) rotate(-60.000000) translate(-46.566987, -24.129165) " x="16.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-10" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(53.566987, 24.129165) rotate(-60.000000) translate(-53.566987, -24.129165) " x="23.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-11" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(60.566987, 24.129165) rotate(-60.000000) translate(-60.566987, -24.129165) " x="30.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-12" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(67.566987, 24.129165) rotate(-60.000000) translate(-67.566987, -24.129165) " x="37.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-13" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(74.566987, 24.129165) rotate(-60.000000) translate(-74.566987, -24.129165) " x="44.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-14" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(81.566987, 24.129165) rotate(-60.000000) translate(-81.566987, -24.129165) " x="51.5669873" y="22.6291651" width="60" height="3"></rect>
+            <rect id="矩形备份-15" fill="#FFFFFF" opacity="0.05" mask="url(#mask-2)" transform="translate(88.566987, 24.129165) rotate(-60.000000) translate(-88.566987, -24.129165) " x="58.5669873" y="22.6291651" width="60" height="3"></rect>
+        </g>
+        <g id="ico/锁盘" opacity="0.200000003" transform="translate(36.000000, 16.000000)" fill="#CCCCCC">
+            <g id="形状-2" transform="translate(1.800000, 1.200000)">
+                <path d="M6.87580645,3.42 L6.87580645,2.4 C6.87580645,1.11 5.6564516,0 4.19999999,0 C2.74354838,0 1.52419354,1.11 1.52419355,2.4 L1.52419355,3.42 C0.677419358,3.42 0,4.05 0,4.8 L0,8.22 C0,8.97 0.677419358,9.6 1.52419355,9.6 L6.87580645,9.6 C7.72258064,9.6 8.4,8.97 8.4,8.22 L8.4,4.8 C8.4,4.05 7.72258064,3.42 6.87580645,3.42 Z M4.57258064,6.18 L4.57258064,7.88999999 C4.57258064,8.1 4.40322581,8.22 4.19999999,8.22 C3.96290321,8.22 3.82741934,8.07 3.82741936,7.88999999 L3.82741936,6.18 C3.35322581,6.18 3.04838709,5.91 3.04838709,5.48999999 C3.04838709,5.06999999 3.3532258,4.8 3.82741936,4.8 L4.60645161,4.8 C5.08064515,4.8 5.38548387,5.07 5.38548387,5.48999999 C5.35161291,5.90999999 5.0467742,6.17999999 4.57258064,6.18 L4.57258064,6.18 Z M2.74354838,3.42 C2.74354838,3.27 2.67580645,3.20999999 2.67580645,3.08999999 L2.67580645,2.4 C2.67580645,1.65 3.35322581,1.02 4.19999999,1.02 C5.04677417,1.02 5.72419355,1.65 5.72419355,2.4 L5.72419355,3.08999999 C5.72419355,3.23999999 5.72419355,3.3 5.65645162,3.42 L2.74354838,3.42 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

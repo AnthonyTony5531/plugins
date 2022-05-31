@@ -1,0 +1,8 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+.idea/libraries/Flutter_Plugins.xml
+build/

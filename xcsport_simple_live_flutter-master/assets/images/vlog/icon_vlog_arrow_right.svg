@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_vlog_arrow_right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_vlog_arrow_right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico/收起" transform="translate(6.000000, 6.000000) rotate(-90.000000) translate(-6.000000, -6.000000) ">
+            <rect id="矩形" fill="#D8D8D8" fill-rule="evenodd" opacity="0" x="0" y="0" width="12" height="12"></rect>
+            <path d="M2.10568426,4.06002757 C1.92329885,3.89120281 1.63858676,3.9021959 1.469762,4.0845813 C1.30093725,4.26696671 1.31193033,4.5516788 1.49431574,4.72050356 L5.69431574,8.60822668 C5.86682474,8.76790935 6.13317526,8.76790935 6.30568426,8.60822668 L10.5056843,4.72050356 C10.6880697,4.5516788 10.6990628,4.26696671 10.530238,4.0845813 C10.3614132,3.9021959 10.0767011,3.89120281 9.89431574,4.06002757 L6,7.66479455 L2.10568426,4.06002757 Z" id="路径-24" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

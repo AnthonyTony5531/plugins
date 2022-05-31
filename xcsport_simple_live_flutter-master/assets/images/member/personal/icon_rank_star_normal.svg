@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_rank_star_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="98.1714362%" y2="98.1714362%" id="linearGradient-1">
+            <stop stop-color="#FF7F4F" offset="0%"></stop>
+            <stop stop-color="#EA563B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon_rank_star_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/星星" fill="url(#linearGradient-1)">
+            <path d="M9,3.95753003 L6.36959732,3.93806866 L4.97205263,1 L3.60280797,3.94441289 L1,3.95581538 L2.95234842,6.07573436 L2.32965992,9 L8.9992947,3.95753003 M4.17929956,4.78639633 L4.97795949,3.22176974 L5.71049789,4.78639633 L6.28936986,4.76899253 L3.69476098,6.82392593 L3.89418351,5.97902757 L3.00841947,4.78571045 L4.18141545,4.78571045 M5.21934716,7.70466066 L7.99786207,8.94641689 L7.29115514,6.00037508 L5.21934716,7.70466066" id="形状"></path>
+        </g>
+    </g>
+</svg>

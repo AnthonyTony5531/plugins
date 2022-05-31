@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D4E6D626F447EA005BDC5C /* XCSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6D426F447EA005BDC5C /* XCSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D4E6F426F44872005BDC5C /* XCSDKModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6DC26F44872005BDC5C /* XCSDKModule.h */; };
+		07D4E6F526F44872005BDC5C /* XCLaunchTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6DD26F44872005BDC5C /* XCLaunchTitleView.h */; };
+		07D4E6F626F44872005BDC5C /* XCSDKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6DE26F44872005BDC5C /* XCSDKUtils.m */; };
+		07D4E6F726F44872005BDC5C /* XCSDKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6DF26F44872005BDC5C /* XCSDKUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D4E6F826F44872005BDC5C /* XCFlutterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6E026F44872005BDC5C /* XCFlutterVC.m */; };
+		07D4E6F926F44872005BDC5C /* XCSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6E126F44872005BDC5C /* XCSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D4E6FA26F44872005BDC5C /* XCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6E226F44872005BDC5C /* XCAlertView.h */; };
+		07D4E6FB26F44872005BDC5C /* XCSDKModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6E326F44872005BDC5C /* XCSDKModule.m */; };
+		07D4E6FC26F44872005BDC5C /* XCSdkApiPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6E426F44872005BDC5C /* XCSdkApiPlugin.h */; };
+		07D4E6FD26F44872005BDC5C /* UITabBarController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6E526F44872005BDC5C /* UITabBarController+Autorotate.m */; };
+		07D4E6FE26F44872005BDC5C /* XCAdverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6E626F44872005BDC5C /* XCAdverView.h */; };
+		07D4E6FF26F44872005BDC5C /* XCFlutterVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6E726F44872005BDC5C /* XCFlutterVC.h */; };
+		07D4E70026F44872005BDC5C /* XCAdverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6E826F44872005BDC5C /* XCAdverView.m */; };
+		07D4E70126F44872005BDC5C /* UINavigationController+Autorotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6E926F44872005BDC5C /* UINavigationController+Autorotate.h */; };
+		07D4E70226F44872005BDC5C /* XCLaunchTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6EA26F44872005BDC5C /* XCLaunchTitleView.m */; };
+		07D4E70326F44872005BDC5C /* XCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6EB26F44872005BDC5C /* XCProgressView.m */; };
+		07D4E70426F44872005BDC5C /* XCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6EC26F44872005BDC5C /* XCAlertView.m */; };
+		07D4E70526F44872005BDC5C /* UITabBarController+Autorotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6ED26F44872005BDC5C /* UITabBarController+Autorotate.h */; };
+		07D4E70626F44872005BDC5C /* XCSdkApiPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6EE26F44872005BDC5C /* XCSdkApiPlugin.m */; };
+		07D4E70726F44872005BDC5C /* XCProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6EF26F44872005BDC5C /* XCProgressView.h */; };
+		07D4E70826F44872005BDC5C /* XCConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6F026F44872005BDC5C /* XCConfig.h */; };
+		07D4E70926F44872005BDC5C /* XCSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6F126F44872005BDC5C /* XCSDKManager.m */; };
+		07D4E70A26F44872005BDC5C /* UINavigationController+Autorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4E6F226F44872005BDC5C /* UINavigationController+Autorotate.m */; };
+		07D4E70B26F44872005BDC5C /* XCSDK.pch in Headers */ = {isa = PBXBuildFile; fileRef = 07D4E6F326F44872005BDC5C /* XCSDK.pch */; };
+		07D4E71A26F448FB005BDC5C /* sdk_loading_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D4E71626F448FB005BDC5C /* sdk_loading_default@2x.png */; };
+		07D4E71B26F448FB005BDC5C /* XCLaunchTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D4E71726F448FB005BDC5C /* XCLaunchTitleView.xib */; };
+		07D4E71C26F448FB005BDC5C /* XCAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D4E71826F448FB005BDC5C /* XCAlertView.xib */; };
+		07D4E71D26F448FB005BDC5C /* sdk_loading_ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D4E71926F448FB005BDC5C /* sdk_loading_ball@2x.png */; };
+		ECD1EEA88F41836B6660944B /* Pods_XCSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1EDE2B1B73AF4B0E86D66A /* Pods_XCSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D4E71E26F449BC005BDC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D4E6C826F447EA005BDC5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D4E70F26F448DC005BDC5C;
+			remoteInfo = XCAssets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D4E6D126F447EA005BDC5C /* XCSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D4E6D426F447EA005BDC5C /* XCSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCSDK.h; sourceTree = "<group>"; };
+		07D4E6D526F447EA005BDC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D4E6DC26F44872005BDC5C /* XCSDKModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSDKModule.h; sourceTree = "<group>"; };
+		07D4E6DD26F44872005BDC5C /* XCLaunchTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCLaunchTitleView.h; sourceTree = "<group>"; };
+		07D4E6DE26F44872005BDC5C /* XCSDKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSDKUtils.m; sourceTree = "<group>"; };
+		07D4E6DF26F44872005BDC5C /* XCSDKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSDKUtils.h; sourceTree = "<group>"; };
+		07D4E6E026F44872005BDC5C /* XCFlutterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFlutterVC.m; sourceTree = "<group>"; };
+		07D4E6E126F44872005BDC5C /* XCSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSDKManager.h; sourceTree = "<group>"; };
+		07D4E6E226F44872005BDC5C /* XCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAlertView.h; sourceTree = "<group>"; };
+		07D4E6E326F44872005BDC5C /* XCSDKModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSDKModule.m; sourceTree = "<group>"; };
+		07D4E6E426F44872005BDC5C /* XCSdkApiPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSdkApiPlugin.h; sourceTree = "<group>"; };
+		07D4E6E526F44872005BDC5C /* UITabBarController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Autorotate.m"; sourceTree = "<group>"; };
+		07D4E6E626F44872005BDC5C /* XCAdverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAdverView.h; sourceTree = "<group>"; };
+		07D4E6E726F44872005BDC5C /* XCFlutterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFlutterVC.h; sourceTree = "<group>"; };
+		07D4E6E826F44872005BDC5C /* XCAdverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAdverView.m; sourceTree = "<group>"; };
+		07D4E6E926F44872005BDC5C /* UINavigationController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Autorotate.h"; sourceTree = "<group>"; };
+		07D4E6EA26F44872005BDC5C /* XCLaunchTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCLaunchTitleView.m; sourceTree = "<group>"; };
+		07D4E6EB26F44872005BDC5C /* XCProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCProgressView.m; sourceTree = "<group>"; };
+		07D4E6EC26F44872005BDC5C /* XCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAlertView.m; sourceTree = "<group>"; };
+		07D4E6ED26F44872005BDC5C /* UITabBarController+Autorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Autorotate.h"; sourceTree = "<group>"; };
+		07D4E6EE26F44872005BDC5C /* XCSdkApiPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSdkApiPlugin.m; sourceTree = "<group>"; };
+		07D4E6EF26F44872005BDC5C /* XCProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCProgressView.h; sourceTree = "<group>"; };
+		07D4E6F026F44872005BDC5C /* XCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCConfig.h; sourceTree = "<group>"; };
+		07D4E6F126F44872005BDC5C /* XCSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSDKManager.m; sourceTree = "<group>"; };
+		07D4E6F226F44872005BDC5C /* UINavigationController+Autorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Autorotate.m"; sourceTree = "<group>"; };
+		07D4E6F326F44872005BDC5C /* XCSDK.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSDK.pch; sourceTree = "<group>"; };
+		07D4E71026F448DC005BDC5C /* XCAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D4E71226F448DC005BDC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D4E71626F448FB005BDC5C /* sdk_loading_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sdk_loading_default@2x.png"; sourceTree = "<group>"; };
+		07D4E71726F448FB005BDC5C /* XCLaunchTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XCLaunchTitleView.xib; sourceTree = "<group>"; };
+		07D4E71826F448FB005BDC5C /* XCAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XCAlertView.xib; sourceTree = "<group>"; };
+		07D4E71926F448FB005BDC5C /* sdk_loading_ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sdk_loading_ball@2x.png"; sourceTree = "<group>"; };
+		5ECA0367675C7FB5E4C70CF4 /* Pods-XCSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCSDK.debug.xcconfig"; path = "Target Support Files/Pods-XCSDK/Pods-XCSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1C6F0480066F0A848CCBCD /* Pods-XCSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCSDK.release.xcconfig"; path = "Target Support Files/Pods-XCSDK/Pods-XCSDK.release.xcconfig"; sourceTree = "<group>"; };
+		FF1EDE2B1B73AF4B0E86D66A /* Pods_XCSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D4E6CE26F447EA005BDC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD1EEA88F41836B6660944B /* Pods_XCSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D4E70D26F448DC005BDC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D4E6C726F447EA005BDC5C = {
+			isa = PBXGroup;
+			children = (
+				07D4E6D326F447EA005BDC5C /* XCSDK */,
+				07D4E71126F448DC005BDC5C /* XCAssets */,
+				07D4E6D226F447EA005BDC5C /* Products */,
+				B4965DE0BD746FBD9F913D16 /* Pods */,
+				BB176956CDA15C3DB10D550E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07D4E6D226F447EA005BDC5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D4E6D126F447EA005BDC5C /* XCSDK.framework */,
+				07D4E71026F448DC005BDC5C /* XCAssets.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D4E6D326F447EA005BDC5C /* XCSDK */ = {
+			isa = PBXGroup;
+			children = (
+				07D4E6E926F44872005BDC5C /* UINavigationController+Autorotate.h */,
+				07D4E6F226F44872005BDC5C /* UINavigationController+Autorotate.m */,
+				07D4E6ED26F44872005BDC5C /* UITabBarController+Autorotate.h */,
+				07D4E6E526F44872005BDC5C /* UITabBarController+Autorotate.m */,
+				07D4E6E626F44872005BDC5C /* XCAdverView.h */,
+				07D4E6E826F44872005BDC5C /* XCAdverView.m */,
+				07D4E6E226F44872005BDC5C /* XCAlertView.h */,
+				07D4E6EC26F44872005BDC5C /* XCAlertView.m */,
+				07D4E6F026F44872005BDC5C /* XCConfig.h */,
+				07D4E6E726F44872005BDC5C /* XCFlutterVC.h */,
+				07D4E6E026F44872005BDC5C /* XCFlutterVC.m */,
+				07D4E6DD26F44872005BDC5C /* XCLaunchTitleView.h */,
+				07D4E6EA26F44872005BDC5C /* XCLaunchTitleView.m */,
+				07D4E6EF26F44872005BDC5C /* XCProgressView.h */,
+				07D4E6EB26F44872005BDC5C /* XCProgressView.m */,
+				07D4E6F326F44872005BDC5C /* XCSDK.pch */,
+				07D4E6E426F44872005BDC5C /* XCSdkApiPlugin.h */,
+				07D4E6EE26F44872005BDC5C /* XCSdkApiPlugin.m */,
+				07D4E6E126F44872005BDC5C /* XCSDKManager.h */,
+				07D4E6F126F44872005BDC5C /* XCSDKManager.m */,
+				07D4E6DC26F44872005BDC5C /* XCSDKModule.h */,
+				07D4E6E326F44872005BDC5C /* XCSDKModule.m */,
+				07D4E6DF26F44872005BDC5C /* XCSDKUtils.h */,
+				07D4E6DE26F44872005BDC5C /* XCSDKUtils.m */,
+				07D4E6D426F447EA005BDC5C /* XCSDK.h */,
+				07D4E6D526F447EA005BDC5C /* Info.plist */,
+			);
+			path = XCSDK;
+			sourceTree = "<group>";
+		};
+		07D4E71126F448DC005BDC5C /* XCAssets */ = {
+			isa = PBXGroup;
+			children = (
+				07D4E71926F448FB005BDC5C /* sdk_loading_ball@2x.png */,
+				07D4E71626F448FB005BDC5C /* sdk_loading_default@2x.png */,
+				07D4E71826F448FB005BDC5C /* XCAlertView.xib */,
+				07D4E71726F448FB005BDC5C /* XCLaunchTitleView.xib */,
+				07D4E71226F448DC005BDC5C /* Info.plist */,
+			);
+			path = XCAssets;
+			sourceTree = "<group>";
+		};
+		B4965DE0BD746FBD9F913D16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ECA0367675C7FB5E4C70CF4 /* Pods-XCSDK.debug.xcconfig */,
+				FA1C6F0480066F0A848CCBCD /* Pods-XCSDK.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../iOSSDKSample/Pods;
+			sourceTree = "<group>";
+		};
+		BB176956CDA15C3DB10D550E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1EDE2B1B73AF4B0E86D66A /* Pods_XCSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07D4E6CC26F447EA005BDC5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D4E6F726F44872005BDC5C /* XCSDKUtils.h in Headers */,
+				07D4E6FC26F44872005BDC5C /* XCSdkApiPlugin.h in Headers */,
+				07D4E6F926F44872005BDC5C /* XCSDKManager.h in Headers */,
+				07D4E6FE26F44872005BDC5C /* XCAdverView.h in Headers */,
+				07D4E70826F44872005BDC5C /* XCConfig.h in Headers */,
+				07D4E70126F44872005BDC5C /* UINavigationController+Autorotate.h in Headers */,
+				07D4E6FF26F44872005BDC5C /* XCFlutterVC.h in Headers */,
+				07D4E70B26F44872005BDC5C /* XCSDK.pch in Headers */,
+				07D4E6F426F44872005BDC5C /* XCSDKModule.h in Headers */,
+				07D4E6FA26F44872005BDC5C /* XCAlertView.h in Headers */,
+				07D4E6D626F447EA005BDC5C /* XCSDK.h in Headers */,
+				07D4E70726F44872005BDC5C /* XCProgressView.h in Headers */,
+				07D4E70526F44872005BDC5C /* UITabBarController+Autorotate.h in Headers */,
+				07D4E6F526F44872005BDC5C /* XCLaunchTitleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07D4E6D026F447EA005BDC5C /* XCSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D4E6D926F447EA005BDC5C /* Build configuration list for PBXNativeTarget "XCSDK" */;
+			buildPhases = (
+				2AAD3A0B3D96C498432E5DC5 /* [CP] Check Pods Manifest.lock */,
+				07D4E6CC26F447EA005BDC5C /* Headers */,
+				B053665EE913C6510C3E753C /* [CP-User] Run Flutter Build fast_ai Script */,
+				07D4E6CD26F447EA005BDC5C /* Sources */,
+				07D4E6CE26F447EA005BDC5C /* Frameworks */,
+				07D4E6CF26F447EA005BDC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D4E71F26F449BC005BDC5C /* PBXTargetDependency */,
+			);
+			name = XCSDK;
+			productName = XCSDK;
+			productReference = 07D4E6D126F447EA005BDC5C /* XCSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		07D4E70F26F448DC005BDC5C /* XCAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D4E71326F448DC005BDC5C /* Build configuration list for PBXNativeTarget "XCAssets" */;
+			buildPhases = (
+				07D4E70C26F448DC005BDC5C /* Sources */,
+				07D4E70D26F448DC005BDC5C /* Frameworks */,
+				07D4E70E26F448DC005BDC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCAssets;
+			productName = XCAssets;
+			productReference = 07D4E71026F448DC005BDC5C /* XCAssets.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D4E6C826F447EA005BDC5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					07D4E6D026F447EA005BDC5C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					07D4E70F26F448DC005BDC5C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 07D4E6CB26F447EA005BDC5C /* Build configuration list for PBXProject "XCSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D4E6C726F447EA005BDC5C;
+			productRefGroup = 07D4E6D226F447EA005BDC5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D4E6D026F447EA005BDC5C /* XCSDK */,
+				07D4E70F26F448DC005BDC5C /* XCAssets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D4E6CF26F447EA005BDC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D4E70E26F448DC005BDC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D4E71C26F448FB005BDC5C /* XCAlertView.xib in Resources */,
+				07D4E71D26F448FB005BDC5C /* sdk_loading_ball@2x.png in Resources */,
+				07D4E71A26F448FB005BDC5C /* sdk_loading_default@2x.png in Resources */,
+				07D4E71B26F448FB005BDC5C /* XCLaunchTitleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AAD3A0B3D96C498432E5DC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B053665EE913C6510C3E753C /* [CP-User] Run Flutter Build fast_ai Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../fast_ai/.metadata",
+				"${SRCROOT}/../fast_ai/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../fast_ai/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../fast_ai/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build fast_ai Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../fast_ai/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D4E6CD26F447EA005BDC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D4E6FB26F44872005BDC5C /* XCSDKModule.m in Sources */,
+				07D4E70A26F44872005BDC5C /* UINavigationController+Autorotate.m in Sources */,
+				07D4E70926F44872005BDC5C /* XCSDKManager.m in Sources */,
+				07D4E70026F44872005BDC5C /* XCAdverView.m in Sources */,
+				07D4E6F826F44872005BDC5C /* XCFlutterVC.m in Sources */,
+				07D4E70626F44872005BDC5C /* XCSdkApiPlugin.m in Sources */,
+				07D4E6F626F44872005BDC5C /* XCSDKUtils.m in Sources */,
+				07D4E70326F44872005BDC5C /* XCProgressView.m in Sources */,
+				07D4E6FD26F44872005BDC5C /* UITabBarController+Autorotate.m in Sources */,
+				07D4E70426F44872005BDC5C /* XCAlertView.m in Sources */,
+				07D4E70226F44872005BDC5C /* XCLaunchTitleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D4E70C26F448DC005BDC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D4E71F26F449BC005BDC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D4E70F26F448DC005BDC5C /* XCAssets */;
+			targetProxy = 07D4E71E26F449BC005BDC5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07D4E6D726F447EA005BDC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07D4E6D826F447EA005BDC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		07D4E6DA26F447EA005BDC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECA0367675C7FB5E4C70CF4 /* Pods-XCSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../iOSSDK";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5FTYR9LPLY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = XCSDK/XCSDK.pch;
+				INFOPLIST_FILE = XCSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xc.XCSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(inherited) x86_64";
+			};
+			name = Debug;
+		};
+		07D4E6DB26F447EA005BDC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1C6F0480066F0A848CCBCD /* Pods-XCSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../iOSSDK";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5FTYR9LPLY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = XCSDK/XCSDK.pch;
+				INFOPLIST_FILE = XCSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xc.XCSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(inherited) x86_64";
+			};
+			name = Release;
+		};
+		07D4E71426F448DC005BDC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../iOSSDK";
+				DEVELOPMENT_TEAM = 5FTYR9LPLY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = XCAssets/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xc.XCAssets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		07D4E71526F448DC005BDC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../iOSSDK";
+				DEVELOPMENT_TEAM = 5FTYR9LPLY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = XCAssets/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xc.XCAssets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D4E6CB26F447EA005BDC5C /* Build configuration list for PBXProject "XCSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D4E6D726F447EA005BDC5C /* Debug */,
+				07D4E6D826F447EA005BDC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D4E6D926F447EA005BDC5C /* Build configuration list for PBXNativeTarget "XCSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D4E6DA26F447EA005BDC5C /* Debug */,
+				07D4E6DB26F447EA005BDC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D4E71326F448DC005BDC5C /* Build configuration list for PBXNativeTarget "XCAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D4E71426F448DC005BDC5C /* Debug */,
+				07D4E71526F448DC005BDC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D4E6C826F447EA005BDC5C /* Project object */;
+}

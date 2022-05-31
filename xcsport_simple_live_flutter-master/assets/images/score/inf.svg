@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="16px" viewBox="0 0 28 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>完场/inf_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-95.000000, -1200.000000)">
+            <g id="icon/16/出局" transform="translate(95.000000, 1200.000000)">
+                <path d="M5.00156841,1 L22.9984316,1 C24.7374715,1 25.3685196,1.186 26.0044444,1.534 C26.6403693,1.883 27.1387705,2.394 27.4791658,3.046 C27.8185859,3.698 28,4.345 28,6.128 L28,9.872 C28,11.655 27.8185859,12.302 27.4791658,12.954 C27.1465642,13.598193 26.6327547,14.1249907 26.0044444,14.466 C25.3685196,14.814 24.7374715,15 22.9984316,15 L5.00156841,15 C3.26252854,15 2.63148042,14.814 1.99555557,14.466 C1.36724526,14.1249907 0.853435825,13.598193 0.520834152,12.954 C0.181414143,12.302 0,11.655 0,9.872 L0,6.128 C0,4.345 0.181414143,3.698 0.520834152,3.046 C0.853435825,2.40180701 1.36724526,1.87500931 1.99555557,1.534 C2.63148042,1.186 3.26252854,1 5.00156841,1 Z" id="形状" fill="#E5E6E8" fill-rule="nonzero"></path>
+                <text id="出局" opacity="0.5" font-family="WeibeiSC-Bold, Weibei SC" font-size="12" font-weight="bold" line-spacing="12" fill="#030A22">
+                    <tspan x="0" y="15">INF</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_playground_league_added</title>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#25E1FE" offset="0%"></stop>
+            <stop stop-color="#1B91FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon_playground_league_added" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <circle id="椭圆形" fill="url(#linearGradient-1)" cx="9" cy="9" r="9"></circle>
+            <path d="M12.4764901,6 L13,6.21167545 L8.73315857,11.6546243 C8.59686607,11.8284843 8.34543777,11.8589388 8.17157776,11.7226463 C8.16186351,11.7150311 8.15250696,11.7069703 8.14353815,11.6984899 L5,8.72612112 L5,8.72612112 L5.72398808,8.30096785 L8.28582307,10.7335205 L12.4764901,6 Z" id="路径-13" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

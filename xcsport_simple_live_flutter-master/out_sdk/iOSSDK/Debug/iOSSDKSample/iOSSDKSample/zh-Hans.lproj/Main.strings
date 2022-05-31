@@ -1,0 +1,96 @@
+
+/* Class = "UITextField"; placeholder = "请输入资源域名URL"; ObjectID = "3gN-Y9-NZo"; */
+"3gN-Y9-NZo.placeholder" = "请输入资源域名URL";
+
+/* Class = "UITextField"; placeholder = "请输入登录密码"; ObjectID = "49f-gd-0ru"; */
+"49f-gd-0ru.placeholder" = "请输入登录密码";
+
+/* Class = "UIButton"; normalTitle = "获取模拟配置"; ObjectID = "8ao-Zu-Rv7"; */
+"8ao-Zu-Rv7.normalTitle" = "获取模拟配置";
+
+/* Class = "UILabel"; text = "    "; ObjectID = "9wc-NL-Uzo"; */
+"9wc-NL-Uzo.text" = "    ";
+
+/* Class = "UILabel"; text = "token:"; ObjectID = "CVs-wu-afm"; */
+"CVs-wu-afm.text" = "token:";
+
+/* Class = "UITextField"; placeholder = "请输入推送域名URL"; ObjectID = "Cd7-kg-y3f"; */
+"Cd7-kg-y3f.placeholder" = "请输入推送域名URL";
+
+/* Class = "UILabel"; text = "密码:"; ObjectID = "DOy-kJ-4Ox"; */
+"DOy-kJ-4Ox.text" = "密码:";
+
+/* Class = "UITextField"; placeholder = "请输入用户名"; ObjectID = "DwA-gX-c2M"; */
+"DwA-gX-c2M.placeholder" = "请输入用户名";
+
+/* Class = "UILabel"; text = "主播ID"; ObjectID = "FcC-cr-U7H"; */
+"FcC-cr-U7H.text" = "主播ID";
+
+/* Class = "UILabel"; text = "系统维护处理"; ObjectID = "HEk-Kv-0r2"; */
+"HEk-Kv-0r2.text" = "系统维护处理";
+
+/* Class = "UITextField"; placeholder = "请输入主播ID(anchorId,跳主播必填)"; ObjectID = "HG8-xu-nTi"; */
+"HG8-xu-nTi.placeholder" = "请输入主播ID(anchorId,跳主播必填)";
+
+/* Class = "UILabel"; text = "环境选择:"; ObjectID = "JUi-ZL-rvq"; */
+"JUi-ZL-rvq.text" = "环境选择:";
+
+/* Class = "UILabel"; text = "比赛ID"; ObjectID = "L9N-d8-88M"; */
+"L9N-d8-88M.text" = "比赛ID";
+
+/* Class = "UITextField"; placeholder = "UAT"; ObjectID = "Owu-7n-Xkr"; */
+"Owu-7n-Xkr.placeholder" = "UAT";
+
+/* Class = "UISegmentedControl"; PKs-Wa-D5C.segmentTitles[0] = "AI"; ObjectID = "PKs-Wa-D5C"; */
+"PKs-Wa-D5C.segmentTitles[0]" = "AI";
+
+/* Class = "UISegmentedControl"; PKs-Wa-D5C.segmentTitles[1] = "BI"; ObjectID = "PKs-Wa-D5C"; */
+"PKs-Wa-D5C.segmentTitles[1]" = "BI";
+
+/* Class = "UILabel"; text = "资源域名:"; ObjectID = "QL8-5O-o8U"; */
+"QL8-5O-o8U.text" = "资源域名:";
+
+/* Class = "UILabel"; text = "启动展示TabBar"; ObjectID = "Soz-bU-hfv"; */
+"Soz-bU-hfv.text" = "启动展示TabBar";
+
+/* Class = "UILabel"; text = "推送域名:"; ObjectID = "U5s-aS-bFE"; */
+"U5s-aS-bFE.text" = "推送域名:";
+
+/* Class = "UILabel"; text = "手动选择AI/BI"; ObjectID = "UBi-MK-u59"; */
+"UBi-MK-u59.text" = "手动选择AI/BI";
+
+/* Class = "UILabel"; text = "边沿侧滑返回"; ObjectID = "UH1-LW-DZX"; */
+"UH1-LW-DZX.text" = "边沿侧滑返回";
+
+/* Class = "UITextField"; placeholder = "请输入主域名URL"; ObjectID = "Uwg-66-K3B"; */
+"Uwg-66-K3B.placeholder" = "请输入主域名URL";
+
+/* Class = "UIButton"; normalTitle = "进入详情主播"; ObjectID = "Zcy-IU-WIh"; */
+"Zcy-IU-WIh.normalTitle" = "进入详情主播";
+
+/* Class = "UITextField"; placeholder = "请输入比赛ID(gidm,跳详情必填)"; ObjectID = "gl0-iT-vEN"; */
+"gl0-iT-vEN.placeholder" = "请输入比赛ID(gidm,跳详情必填)";
+
+/* Class = "UIButton"; normalTitle = "ICON SDK"; ObjectID = "hAt-cL-K8s"; */
+"hAt-cL-K8s.normalTitle" = "ICON SDK";
+
+/* Class = "UILabel"; text = "用户名:"; ObjectID = "jsb-UW-cVA"; */
+"jsb-UW-cVA.text" = "用户名:";
+
+/* Class = "UIButton"; normalTitle = "TAB SDK"; ObjectID = "qOw-zz-uDp"; */
+"qOw-zz-uDp.normalTitle" = "TAB SDK";
+
+/* Class = "UILabel"; text = "Token超时处理"; ObjectID = "wzT-sh-Aah"; */
+"wzT-sh-Aah.text" = "Token超时处理";
+
+/* Class = "UIButton"; normalTitle = "启动快捷TZ"; ObjectID = "yTN-yL-Dk4"; */
+"yTN-yL-Dk4.normalTitle" = "启动快捷TZ";
+
+/* Class = "UITextField"; placeholder = "请输入token"; ObjectID = "ynY-54-KaX"; */
+"ynY-54-KaX.placeholder" = "请输入token";
+
+/* Class = "UIButton"; normalTitle = "回到SDK"; ObjectID = "yzM-kK-Vv8"; */
+"yzM-kK-Vv8.normalTitle" = "回到SDK";
+
+/* Class = "UILabel"; text = "主域名:"; ObjectID = "zAu-Yv-n3h"; */
+"zAu-Yv-n3h.text" = "主域名:";

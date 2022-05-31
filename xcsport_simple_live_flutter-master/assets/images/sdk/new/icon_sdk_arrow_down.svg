@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_sdk_arrow_down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_sdk_arrow_down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-3">
+            <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+            <path d="M8.29486166,6.32166726 L12.8855676,11.3297101 C13.0348446,11.4925577 13.0238434,11.7455847 12.8609958,11.8948617 C12.7872239,11.9624859 12.6907826,12 12.590706,12 L3.40929402,12 C3.18838012,12 3.00929402,11.8209139 3.00929402,11.6 C3.00929402,11.4999233 3.04680809,11.4034821 3.11443236,11.3297101 L7.70513834,6.32166726 C7.85441531,6.15881967 8.10744226,6.14781849 8.27028985,6.29709546 C8.27883253,6.30492625 8.28703087,6.31312458 8.29486166,6.32166726 Z" id="三角形" fill="#FFFFFF" transform="translate(8.000000, 9.000000) scale(1, -1) translate(-8.000000, -9.000000) "></path>
+        </g>
+    </g>
+</svg>

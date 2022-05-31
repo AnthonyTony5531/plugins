@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_chatroom_close_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_chatroom_close_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="#F05050" opacity="0.400000006" cx="7" cy="7" r="7"></circle>
+        <g id="ico/16/x" transform="translate(2.000000, 2.000000)" fill="#FFFFFF">
+            <g id="形状结合-2" transform="translate(-0.937500, -0.937500)">
+                <path d="M5.625,5.625 L5.625,2.1875 C5.625,2.01491102 5.76491102,1.875 5.9375,1.875 C6.11008898,1.875 6.25,2.01491102 6.25,2.1875 L6.25,5.625 L9.6875,5.625 C9.86008898,5.625 10,5.76491102 10,5.9375 C10,6.11008898 9.86008898,6.25 9.6875,6.25 L6.25,6.25 L6.25,9.6875 C6.25,9.86008898 6.11008898,10 5.9375,10 C5.76491102,10 5.625,9.86008898 5.625,9.6875 L5.625,6.25 L2.1875,6.25 C2.01491102,6.25 1.875,6.11008898 1.875,5.9375 C1.875,5.76491102 2.01491102,5.625 2.1875,5.625 L5.625,5.625 Z" id="形状结合" fill-rule="nonzero" transform="translate(5.937500, 5.937500) rotate(-315.000000) translate(-5.937500, -5.937500) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

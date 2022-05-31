@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+def common_pods
+    pod 'XCSDK_iOS', :path => '../iOSSDK/iOSSDK.podspec'
+    pod 'MBProgressHUD', '~> 1.1.0'
+    pod 'AFNetworking', '~> 4.0.1'
+    pod 'SDWebImage', '~> 5.8.0'
+    pod 'UMCommon'
+    pod 'UMDevice'
+end
+
+target 'Sample-OC' do
+   common_pods
+end

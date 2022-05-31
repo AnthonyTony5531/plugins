@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>比赛详情/向上_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="画板" transform="translate(-73.000000, -362.000000)">
+            <g id="ico/展开收起" transform="translate(83.000000, 372.000000) scale(1, -1) translate(-83.000000, -372.000000) translate(73.000000, 362.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                <path d="M10.0004737,10.9952423 L3.03571368,7.6526804 C2.41332365,7.35397991 1.66663227,7.61638213 1.36793178,8.23877215 C1.0692313,8.86116217 1.33163351,9.60785356 1.95402353,9.90655405 L9.45907886,13.5084172 C9.80066111,13.672351 10.1981628,13.6725087 10.5398749,13.5088458 L18.0602168,9.9069827 C18.6828436,9.60877599 18.945838,8.86229298 18.6476313,8.23966622 C18.3494246,7.61703946 17.6029416,7.35404504 16.9803148,7.65225175 L10.0004737,10.9952423 Z" id="路径-10" fill="#071125"></path>
+            </g>
+        </g>
+    </g>
+</svg>

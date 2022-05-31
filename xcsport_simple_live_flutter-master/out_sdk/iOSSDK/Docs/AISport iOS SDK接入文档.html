@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>README</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">AI体育SDK iOS接入文档</h1>
+
+<p><code>此文档引导宿主App iOS端如何接入SDK</code></p>
+
+<h2 id="toc_1">目录</h2>
+
+<h3 id="toc_2"><a href="#env-compatibility">一、环境、兼容性等公共配置</a></h3>
+
+<blockquote>
+<h5 id="toc_3"><a href="#common1">1、开发语言</a></h5>
+
+<h5 id="toc_4"><a href="#common2">2、三方依赖管理</a></h5>
+
+<h5 id="toc_5"><a href="#common3">3、开发工具</a></h5>
+
+<h5 id="toc_6"><a href="#common4">4、系统兼容性</a></h5>
+
+<h5 id="toc_7"><a href="#common5">5、SDK引入</a></h5>
+
+<h5 id="toc_8"><a href="#common6">6、工程配置</a></h5>
+
+<blockquote>
+<h5 id="toc_9"><a href="#common6.1">6.1、Deployment Target设置成10.0或更高版本</a></h5>
+
+<h5 id="toc_10"><a href="#common6.2">6.2、Enable Bitcode 设置成NO</a></h5>
+</blockquote>
+
+<h5 id="toc_11"><a href="#common7">7、info.plist(ATS、隐私等)配置</a></h5>
+</blockquote>
+
+<h3 id="toc_12"><a href="#Objective-C">二、Objective-C接入说明</a></h3>
+
+<blockquote>
+<h4 id="toc_13"><a href="#oc-detail">具体接入</a></h4>
+
+<blockquote>
+<h5 id="toc_14"><a href="#oc-detail1">1、ICON版方式：启动SDK</a></h5>
+
+<h5 id="toc_15"><a href="#oc-detail2">2、TAB版方式：配置SDK</a></h5>
+
+<h5 id="toc_16"><a href="#oc-anchor">3、展示比赛详情页/主播页</a></h5>
+</blockquote>
+</blockquote>
+
+<h3 id="toc_17"><a href="#Swift">三、Swift接入说明</a></h3>
+
+<blockquote>
+<h5 id="toc_18"><a href="#swift-start">接入准备</a></h5>
+
+<blockquote>
+<h6 id="toc_19"><a href="#swift-start1">1、移除多window相关配置</a></h6>
+
+<h6 id="toc_20"><a href="#swift-start2">2、添加Objective-C桥接</a></h6>
+</blockquote>
+
+<h5 id="toc_21"><a href="#swift-detail">具体接入</a></h5>
+</blockquote>
+
+<h4 id="toc_22"><a href="#info">四、SDK接口说明</a></h4>
+
+<blockquote>
+<h6 id="toc_23"><a href="#info1">1、配置商户信息、设置回调、启动SDK(ICON版方式)</a></h6>
+
+<h6 id="toc_24"><a href="#info2">2、配置SDK信息(TAB版方式)</a></h6>
+
+<h6 id="toc_25"><a href="#info3">3、获取SDK主页面</a></h6>
+
+<h6 id="toc_26"><a href="#info4">4、获取投注记录</a></h6>
+
+<h6 id="toc_27"><a href="#info5">5、获取页面ID列表</a></h6>
+
+<h6 id="toc_28"><a href="#info6">6、页面释放</a></h6>
+
+<h6 id="toc_29"><a href="#info7">7、查看SDK版本</a></h6>
+
+<h6 id="toc_30"><a href="#info8">8、启动SDK并跳指定主播页</a></h6>
+
+<h6 id="toc_31"><a href="#info9">9、视频暂停/播放</a></h6>
+</blockquote>
+
+<h4 id="toc_32"><a href="#webAnimation">五、动画播放对环境要求</a></h4>
+
+<h4 id="toc_33"><a href="#gain-docs">六、如何获取config配置信息与文档</a></h4>
+
+<h4 id="toc_34"><a href="#config-desc">七、config配置参数说明</a></h4>
+
+<h4 id="toc_35"><a href="#common-problem">八、常见问题</a></h4>
+
+<h4 id="toc_36"><a href="#version-info">九、版本更新说明</a></h4>
+
+<p><br></p>
+
+<h2 id="toc_37">文档</h2>
+
+<h3 id="toc_38"><span id="env-compatibility" >一、环境、兼容性等公共配置</span></h3>
+
+<blockquote>
+<h5 id="toc_39"><span id="common1">1、开发语言：Objective-C、Swift</span></h5>
+
+<h5 id="toc_40"><span id="common2">2、三方依赖管理：CocoaPods【安装教程<a href="https://www.jianshu.com/p/417b0e8bb027">1</a>、<a href="http://www.code4app.com/article/cocoapods-install-usage">2</a>】</span></h5>
+
+<h5 id="toc_41"><span id="common3">3、开发工具：<font color='red'>Xcode请使用最新版本</font> </span></h5>
+
+<h5 id="toc_42"><span id="common4">4、系统兼容性：SDK仅支持<font color='red'>iOS10+</font>系统，iPhone6或更高配手机，<font color='red'>现暂时仅支持真机！！！</font></span></h5>
+
+<h4 id="toc_43"><span id="common5">5、SDK引入<font color='red'>(pods管理本地代码方式引入！！！)</font> </span></h4>
+
+<div><pre><code class="language-none">1、请将iOSSDK文件夹复制到工程文件夹下
+2、Podfile添加：
+pod &#39;XCSDK_iOS&#39;, :path =&gt; &#39;iOSSDK/iOSSDK.podspec&#39;
+pod &#39;AFNetworking&#39;, &#39;~&gt; 4.0.1&#39; # Apple已禁止有UIWebView的IPA上传，SDK中已将版本升到4.0+
+pod &#39;MBProgressHUD&#39;, &#39;~&gt; 1.1.0&#39;
+pod &#39;SDWebImage&#39;
+文件结构如下：
+├── iOSSDKSample
+│   ├── iOSSDK
+│   │   ├── iOSSDK.podspec
+│   │   └── frameworks
+│   │         ├── App.framework
+│   │       ├── XCSDK.framework
+│   │       └── ...
+│   ├── iOSSDKSample.xcodeproj
+│   ├── iOSSDKSample.xcworkspace
+│   ├── Podfile
+│   ├── iOSSDKSample
+│   │   └── ...
+│   └── ...
+└── ...
+3、执行 pod install（如果失败对终端翻墙然后pod update）</code></pre></div>
+
+<p><br></p>
+
+<h4 id="toc_44"><span id="common6" >6、工程配置</span></h4>
+
+<blockquote>
+<h5 id="toc_45"><span id="common6.1" >1、Deployment Target设置成10.0或更高版本</span></h5>
+
+<p><img src="img/DeploymentTarget.png" width="418" height="239" /></p>
+
+<h5 id="toc_46"><span id="common6.2" >2、Enable Bitcode 设置成NO</span></h5>
+
+<p><img src="img/Bitcode.png" width="651" height="149" /></p>
+</blockquote>
+
+<h4 id="toc_47"><span id="common7" >7、info.plist(ATS与隐私设置等)</span></h4>
+
+<div><pre><code class="language-objectivec">    &lt;key&gt;CFBundleDevelopmentRegion&lt;/key&gt;
+    &lt;string&gt;zh_CN&lt;/string&gt;
+    &lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+        &lt;true/&gt;
+        &lt;key&gt;NSAllowsArbitraryLoadsInWebContent&lt;/key&gt;
+        &lt;true/&gt;
+        &lt;# 按需添加 异常域名 #&gt;
+        &lt;key&gt;NSExceptionDomains&lt;/key&gt;
+         &lt;dict&gt;
+            &lt;key&gt;your domain eg:baidu.com&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;NSExceptionAllowsInsecureHTTPLoads&lt;/key&gt;
+                &lt;true/&gt;
+                &lt;key&gt;NSIncludesSubdomains&lt;/key&gt;
+                &lt;true/&gt;
+            &lt;/dict&gt;
+         &lt;/dict&gt;
+    &lt;/dict&gt;
+    &lt;key&gt;NSCameraUsageDescription&lt;/key&gt;
+    &lt;string&gt;因更新头像等功能需要，需要使用您的相机&lt;/string&gt;
+    &lt;key&gt;NSMicrophoneUsageDescription&lt;/key&gt;
+    &lt;string&gt;因更新头像等功能需要，需要使用您的相册&lt;/string&gt;
+    &lt;key&gt;io.flutter.embedded_views_preview&lt;/key&gt;
+    &lt;string&gt;YES&lt;/string&gt;</code></pre></div>
+
+<h4 id="toc_48">注: 如果需要App系统工具为中文（例如打开相册中的按钮及提示） 需设置CFBundleDevelopmentRegion为zh_CN  并添加中文语言包（如下图）</h4>
+
+<p><img src="img/tmp6f6bce0b.png" width="720" height="auto" />
+<br>
+<br></p>
+</blockquote>
+
+<h3 id="toc_49"><span id="Objective-C" >二、Objective-C接入说明</span></h3>
+
+<h3 id="toc_50"><span id="oc-detail" >具体代码接入</span></h3>
+
+<blockquote>
+<h4 id="toc_51"><span id="oc-detail1" >1、ICON版方式：启动SDK<font color='red'>(示例代码如下)</font></span></h4>
+
+<div><pre><code class="language-objectivec">1、导入头文件
+#import &lt;XCSDK/XCSDK.h&gt;
+//
+2、启动SDK
+- (IBAction)launchSDKButton:(UIButton *)sender {
+    NSError *error = nil;
+    __weak __typeof(self) weakSelf = self;
+    NSMutableDictionary *config = [@{
+        XCSDKMainUrlKey     : self.config[XCSDKMainUrlKey] ?: @&quot;&quot;,
+        XCSDKImgUrlKey      : self.config[XCSDKImgUrlKey] ?: @&quot;&quot;,
+        XCSDKImUrlKey       : self.config[XCSDKImUrlKey] ?: @&quot;&quot;,
+        XCSDKTokenKey       : self.config[XCSDKTokenKey] ?: @&quot;&quot;,
+        XCSDKAppTypeKey       : self.config[XCSDKAppTypeKey] ?: @&quot;&quot;,
+        XCSDKShowRechargeKey: @YES,
+        XCSDKShowCashKey    : @YES,
+        XCSDKShowTransferKey: @YES,
+        XCSDKHandledSysRepair: @(XCGetUserDefaultsBool(kHandledSysRepair)),
+    } mutableCopy];
+    NSLog(@&quot;config=%@&quot;, config);
+    // 此方法（openSDKWithConfig:naviVC:error:handler:）即将废弃
+    [XCSDKManager openIconSdk:config naviVC:self.navigationController configError:&amp;error handler:^(NSString *_Nonnull method, NSDictionary * _Nullable params) {
+        typeof(weakSelf) self = weakSelf;
+        NSLog(@&quot;method = %@, params=%@&quot;, method, params);
+        NSString *showName = nil;
+        if ([method isEqualToString:XCAppMethodCashOut]) {
+            showName = @&quot;宿主App-提现页面&quot;;
+            [self showSampleVC:showName];
+        }
+        else if ([method isEqualToString:XCAppMethodRecharge]) {
+            showName = @&quot;宿主App-充值页面&quot;;
+            [self showSampleVC:showName];
+        }
+        else if ([method isEqualToString:XCAppMethodTransfer]) {
+            showName = @&quot;宿主App-转账页面&quot;;
+            [self showSampleVC:showName];
+        }
+        else if ([method isEqualToString:XCAppMethodNeedLogin]) {
+            [self showAnonymousLogninVC:params]; // 匿名登录模式进入，触发登录
+        }
+        else if ([method isEqualToString:XCAppMethodExitSDK]) {
+            // @&quot;宿主App-主动退出SDK&quot;;
+            [self readUserInfo];
+            [self.navigationController popViewControllerAnimated:YES ];
+        }
+        else if ([method isEqualToString:XCAppMethodBalanceChanged]) { // 余额变化
+            CGFloat balance = [params[@&quot;value&quot;] floatValue];
+            NSLog(@&quot;balance=%f&quot;, balance);
+        }
+        else if ([method isEqualToString:XCAppMethodRetryAlert]) {  // 因网络问题下载SDK资源包失败，按需实现
+            NSUInteger index = [params[@&quot;index&quot;] intValue];
+            if (index == 0) {} // 重试
+            else if (index == 1) {} // 去检查网络
+        }
+        else if ([method isEqualToString:XCAppMethodSystemRepair]) { // 系统维护-会回调多次(通过code/msg/whTime key获取相关信息)
+            NSUInteger code = [params[@&quot;code&quot;] intValue];
+            NSString *msg = params[@&quot;msg&quot;];
+            NSString *whTime = params[@&quot;whTime&quot;];
+            NSLog(@&quot;code=%zd, msg=%@, whTime=%@&quot;, code, msg, whTime);
+        }
+        else if([method isEqualToString:XCAppMethodCanAutorotate]){ // 当前页面是支持自动旋转
+            BOOL autorotate = [params[@&quot;autorotate&quot;] boolValue]; // YES-支持，NO不支持
+            NSLog(@&quot;autorotate=%d&quot;, autorotate);
+            [weakSelf showHUD:autorotate ? @&quot;开启自动旋转&quot; : @&quot;关闭自动旋转&quot; afterDelay:1.f];
+        }
+    }];
+    // 错误处理
+    if (!!error) {
+        NSLog(@&quot;error=%@&quot;, error);
+        NSString *msg = @&quot;其他错误&quot;;
+        switch (error.code) {
+            case XCErrorCode_naviVCError:
+            {
+                msg = @&quot;根控制器为空或类型错误&quot;;
+                break;
+            }
+            case XCErrorCode_configError:
+            {
+                msg = @&quot;配置信息错误或缺失&quot;;
+                break;
+            }
+            default:
+            {
+                //...
+                break;
+            }
+        }
+    }
+}</code></pre></div>
+
+<h4 id="toc_52"><span id="oc-detail2" >2、TAB版方式：配置SDK<font color='red'>(示例代码如下)</font></span></h4>
+
+<div><pre><code class="language-objectivec">1、导入头文件
+#import &lt;XCSDK/XCSDK.h&gt;
+//
+#define LazyLoadingMode1 1
+#define LazyLoadingMode2 2
+#define TabSDKMode LazyLoadingMode1 // 强烈建议使用懒加载方式2或1接入TabSDK
+- (void)viewDidLoad {
+    [super viewDidLoad];
+#if TabSDKMode == LazyLoadingMode1
+    // TODO:懒加载方式1：初始化viewControllers-&gt;&gt;需要使用SDK时配置SDK-&gt;&gt;初始化mainPage/betPage-&gt;&gt;资源加载页/启动页加载时(不会挡住其他tab子页面)
+    // 2.1.1、配置SDK
+    BOOL ret = [self configTabSDK]; if(!ret) return;
+    // 2.1.2、初始化viewControllers
+    [self initViewControllers];
+    // 2.1.3、使用的时候再初始化betPage或mainPage
+    if (self.selectedIndex == 2) [self configSDKPage:YES]; // 默认选中mainPage则在此初始化
+#elif TabSDKMode == LazyLoadingMode2
+    // TODO:懒加载方式2：初始化viewControllers-&gt;&gt;需要使用SDK时配置SDK-&gt;&gt;初始化mainPage/betPage-&gt;&gt;资源加载页/启动页加载时(不会挡住其他tab子页面)
+    // 2.2.1、初始化viewControllers
+    [self initViewControllers]; self.selectedIndex = 1;
+#else
+    // TODO:旧方式：先配置SDK-&gt;&gt;初始化viewControllers-&gt;&gt;初始化betPage和mainPage-&gt;&gt;资源加载页/启动页加载时(会挡住其他tab子页面)
+    /* 如需同时初始化betPage和mainPage，请先初始化betPage然后再初始化mainPage并用UINavigationController(或其子类)包装（如仅使用一个，初始化一个即可）
+     包装示例比如：[[UINavigationVC alloc] initWithRootViewController:mainPage],或[[XCNavigationVC alloc] initWithRootViewController:mainPage] */
+    // 1.1、配置SDK
+    BOOL ret = [self configTabSDK]; if(!ret) return;
+    // 1.2、初始化viewControllers
+    [self initViewControllers];
+    // 1.3、初始化betPage和mainPage
+    self.betNavVC.viewControllers = @[[XCSDKManager betPage]];
+    self.mainNavVC.viewControllers = @[[XCSDKManager mainPage]];
+#endif
+    [self initTabBar];
+    self.delegate = self;
+    self.view.backgroundColor = UIColor.orangeColor;
+}
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+#if TabSDKMode == LazyLoadingMode1 || TabSDKMode == LazyLoadingMode2
+    // 2.2.2、配置SDK
+    if(!self.didConfigSDK) { BOOL ret = [self configTabSDK]; if(!ret) return; }
+    // 2.2.3、初始化mainPage或betPage
+    if(self.selectedIndex == 2) [self configSDKPage:YES];
+    else if(self.selectedIndex == 3) [self configSDKPage:NO];
+#endif
+}</code></pre></div>
+
+<h4 id="toc_53"><span id="oc-anchor" >3、展示比赛详情页/主播页<font color='red'>(示例代码如下)</font></span></h4>
+
+<div><pre><code class="language-objectivec">1、导入头文件
+#import &lt;XCSDK/XCSDK.h&gt;
+//
+2、启动SDK(较icon版多XCSDKGidmKey和XCSDKAnchorIdKey两个字段)
+- (IBAction)queryAnchorListAndEnterSDK:(UIButton *)sender {
+    if (self.config[XCSDKMainUrlKey] == nil || self.config[XCSDKTokenKey] == nil) {
+        [self showHUD:@&quot;请先获取配置信息~&quot; afterDelay:1.0f];
+        return;
+    }
+    __weak __typeof(self) weakSelf = self;
+    [XCSDKUtils queryAnchorList:self.config handler:^(NSArray&lt;NSDictionary&lt;NSString *,NSString *&gt; *&gt; * _Nullable resp, NSError * _Nullable error) {
+        NSLog(@&quot;resp=%@, error=%@&quot;, resp, error);
+        typeof(weakSelf) self = weakSelf;
+        if (resp.count == 0 || error != nil) {
+            [self showHUD:resp.count == 0 ? @&quot;主播列表为空，请稍后再试~&quot; : error.localizedDescription afterDelay:1.0f];
+            return;
+        }
+        NSMutableDictionary *config = [NSMutableDictionary dictionaryWithDictionary:self.config];
+        [config setObject:resp.firstObject[XCSDKGidmKey] forKey:XCSDKGidmKey];
+        [config setObject:resp.firstObject[XCSDKAnchorIdKey] forKey:XCSDKAnchorIdKey];
+        NSError *configError = nil;
+        [XCSDKManager showAnchorPage:config naviVC:self.navigationController configError:&amp;configError handler:^(NSString * _Nonnull method, NSDictionary&lt;NSString *,id&gt; * _Nullable params) {
+            NSLog(@&quot;method = %@, params=%@&quot;, method, params);
+            NSString *showName = nil;
+            if ([method isEqualToString:XCAppMethodCashOut]) {
+                showName = @&quot;宿主App-提现页面&quot;;
+                [self showSampleVC:showName];
+            }
+            else if ([method isEqualToString:XCAppMethodRecharge]) {
+                showName = @&quot;宿主App-充值页面&quot;;
+                [self showSampleVC:showName];
+            }
+            else if ([method isEqualToString:XCAppMethodTransfer]) {
+                showName = @&quot;宿主App-转账页面&quot;;
+                [self showSampleVC:showName];
+            }
+            else if ([method isEqualToString:XCAppMethodNeedLogin]) {
+            [self showAnonymousLogninVC:params]; // 匿名登录模式进入，触发登录
+              }
+            else if ([method isEqualToString:XCAppMethodExitSDK]) {
+                // @&quot;宿主App-主动退出SDK&quot;;
+                [self readUserInfo];
+                [self.navigationController popViewControllerAnimated:YES ];
+            }
+            else if ([method isEqualToString:XCAppMethodBalanceChanged]) { // 余额变化
+                CGFloat balance = [params[@&quot;value&quot;] floatValue];
+                NSLog(@&quot;balance=%f&quot;, balance);
+            }
+            else if ([method isEqualToString:XCAppMethodRetryAlert]) {  // 因网络问题下载SDK资源包失败，按需实现
+                NSUInteger index = [params[@&quot;index&quot;] intValue];
+                if (index == 0) {} // 重试
+                else if (index == 1) {} // 去检查网络
+            }
+            else if ([method isEqualToString:XCAppMethodTokenTimeout]) {
+                // token超时;
+                if (self.handledTokenTimeoutSwitch.on) { // 外部处理
+                    [self showHUDAndRelogin];
+                }
+            }
+            else if ([method isEqualToString:XCAppMethodSystemRepair]) { // 系统维护-会回调多次(通过code/msg/whTime key获取相关信息)
+                NSUInteger code = [params[@&quot;code&quot;] intValue];
+                NSString *msg = params[@&quot;msg&quot;];
+                NSString *whTime = params[@&quot;whTime&quot;];
+                NSLog(@&quot;code=%zd, msg=%@, whTime=%@&quot;, code, msg, whTime);
+            }
+            else if([method isEqualToString:XCAppMethodCanAutorotate]){ // 当前页面是支持自动旋转
+                 BOOL autorotate = [params[@&quot;autorotate&quot;] boolValue]; // YES-支持，NO不支持
+                 NSLog(@&quot;autorotate=%d&quot;, autorotate);
+              [weakSelf showHUD:autorotate ? @&quot;开启自动旋转&quot; : @&quot;关闭自动旋转&quot; afterDelay:1.f];
+             }
+        }];
+    }];
+}</code></pre></div>
+</blockquote>
+
+<h3 id="toc_54"><span id="Swift" >三、Swift接入说明</span></h3>
+
+<blockquote>
+<h4 id="toc_55"><span id="swift-start" >接入准备</span></h4>
+
+<blockquote>
+<h5 id="toc_56"><span id="swift-start1" >1、移除多window相关配置</span></h5>
+
+<div><pre><code class="language-objectivec">1.1、AppDelegate.swift文件中AppDelegate
+  1.1.1：添加window属性：var window: UIWindow?
+  1.1.2：注释或移除多屏代理方法
+    //
+    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -&gt; UISceneConfiguration {
+        return UISceneConfiguration(name: &quot;Default Configuration&quot;, sessionRole: connectingSceneSession.role)
+    }
+    //
+    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set&lt;UISceneSession&gt;) {}
+//
+1.2、SceneDelegate.swift文件解除引用
+//
+1.3、info.plist移除多屏配置
+&lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
+        &lt;false/&gt; &lt;# ----- 此处确保为false ----- #&gt;
+        &lt;# ----- 删除以下内容 ----- #&gt;
+        &lt;key&gt;UISceneConfigurations&lt;/key&gt;
+        &lt;dict&gt;
+            &lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
+            &lt;array&gt;
+                &lt;dict&gt;
+                    &lt;key&gt;UISceneConfigurationName&lt;/key&gt;
+                    &lt;string&gt;Default Configuration&lt;/string&gt;
+                    &lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
+                    &lt;string&gt;$(PRODUCT_MODULE_NAME).SceneDelegate&lt;/string&gt;
+                    &lt;key&gt;UISceneStoryboardFile&lt;/key&gt;
+                    &lt;string&gt;Main&lt;/string&gt;
+                &lt;/dict&gt;
+            &lt;/array&gt;
+        &lt;/dict&gt;
+        &lt;# ----- 删除以上内容 ----- #&gt;
+    &lt;/dict&gt;</code></pre></div>
+
+<h5 id="toc_57"><span id="swift-start2" >2、添加Objective-C桥接</span></h5>
+
+<p><img src="img/oc_bridge_header_file.png" width="618" height="332" /></p>
+</blockquote>
+
+<h4 id="toc_58"><span id="swift-detail" >具体接入</span></h4>
+
+<div><pre><code class="language-objectivec">    // 获取token
+    func queryConfig() {
+        // 模拟获取登录token
+        XCSDKUtils.simulateLogin(XCSDKConfigUAT, config: [&quot;merchantId&quot;: merchantId, &quot;loginName&quot;: loginName, &quot;passWord&quot;: passWord]) { (config, error) in
+            self.data = config ?? [:];
+            //NSLog(&quot;000-config=\(String(describing: config))&quot;)
+        }
+    }
+    // 启动SDK
+    @IBAction func launchSDK(_ sender: UIButton) {
+        // 组装配置
+        let config = [
+            XCSDKMainUrlKey: self.data[XCSDKMainUrlKey],
+            XCSDKImgUrlKey: self.data[XCSDKImgUrlKey],
+            XCSDKImUrlKey: self.data[XCSDKImUrlKey],
+            XCSDKTokenKey: self.data[XCSDKTokenKey],
+            XCSDKAppTypeKey: self.data[XCSDKAppTypeKey],
+            XCSDKMerchantIdKey: merchantId
+        ]
+        //NSLog(&quot;111-config=\(String(describing: config))&quot;)
+        // 启动SDK
+        XCSDKManager.openSDK(withConfig: config as? [String : String] ?? [:], naviVC: self.navigationController ?? UINavigationController.init(), error: nil) { (method, params) in
+            NSLog(&quot;method\(method)&quot;)
+        }
+    }</code></pre></div>
+</blockquote>
+
+<p><br>
+<br></p>
+
+<h3 id="toc_59"><span id="info" >四、SDK接口说明</span></h3>
+
+<blockquote>
+<h4 id="toc_60"><span id="info1" >1、配置商户信息、设置回调、启动SDK(ICON版方式)</span></h4>
+
+<div><pre><code class="language-objectivec">/// 启动SDK(配置商户信息、设置回调)
+/// @param iconSdkConfig SDK相关配置
+/// @param naviVC 宿主App导航控制器，SDK导航根控制器(SDK内部仅弱引用)
+/// @param configError 配置错误信息
+/// @param handler SDK事件回调
++ (void)openIconSdk:(NSDictionary&lt;NSString *, id&gt; *_Nonnull)iconSdkConfig
+             naviVC:(UINavigationController *_Nonnull)naviVC
+        configError:(NSError *__autoreleasing *)configError
+            handler:(XCSDKHandler)handler;</code></pre></div>
+
+<h4 id="toc_61"><span id="info2" >2、配置SDK信息(TAB版方式)</span></h4>
+
+<div><pre><code class="language-objectivec">/// 配置SDK信息(返回值：NO-配置失败，YES-配置成功)
+/// @param sdkConfig SDK配置配置信息
+/// @param tabbarVC 宿主App tabbarVC(SDK内部仅弱引用)
+/// @param configError 配置错误信息
+/// @param handler  SDK回调
++ (BOOL)configTabSdk:(NSDictionary&lt;NSString *, id&gt; *_Nonnull)sdkConfig
+            tabbarVC:(UITabBarController *_Nonnull)tabbarVC
+         configError:(NSError *__autoreleasing *)configError
+             handler:(XCSDKHandler)handler;</code></pre></div>
+
+<h4 id="toc_62"><span id="info3" >3、获取SDK主页面</span></h4>
+
+<div><pre><code class="language-objectivec">/// 单独获取SDK主页面
++ (UIViewController *_Nullable)mainPage;</code></pre></div>
+
+<h4 id="toc_63"><span id="info4" >4、获取投注记录页面</span></h4>
+
+<div><pre><code class="language-objectivec">/// 单独获取SDK投注记录页面
++ (UIViewController * _Nullable)betPage;</code></pre></div>
+
+<h4 id="toc_64"><span id="info5" >5、获取页面ID列表</span></h4>
+
+<div><pre><code class="language-objectivec">/// 获取页面ID列表
++ (NSArray *_Nullable)pageIds;</code></pre></div>
+
+<h4 id="toc_65"><span id="info6" >6、页面释放</span></h4>
+
+<div><pre><code class="language-objectivec">/// 页面释放
+/// @param pageIds nil-释放所有页面，非nil-释放指定页面如：@&quot;mainPage&quot;/@&quot;memberBettingPage&quot;
++ (void)destroyByPageIds:(NSArray&lt;NSString *&gt; *_Nullable)pageIds;</code></pre></div>
+
+<h4 id="toc_66"><span id="info7" >7、查看SDK版本</span></h4>
+
+<div><pre><code class="language-objectivec">+ (NSString *_Nonnull)sdkVersion;</code></pre></div>
+
+<h4 id="toc_67"><span id="info8" >8、展示详情页</span></h4>
+
+<div><pre><code class="language-objectivec">/// 展示详情页(传主播id展示主播直播)
+/// @param sdkConfig SDK与主播配置信息
+/// @param naviVC 宿主App导航控制器，做为SDK导航根控制器(SDK内部仅弱引用)
+/// @param configError 配置错误信息
+/// @param handler  SDK回调
++ (void)showDetailPage:(NSDictionary&lt;NSString *, id&gt; *_Nonnull)sdkConfig
+                naviVC:(UINavigationController *_Nonnull)naviVC
+           configError:(NSError *__autoreleasing *)configError
+               handler:(XCSDKHandler)handler;</code></pre></div>
+
+<h4 id="toc_68"><span id="info9" >9、视频播放/暂停</span></h4>
+
+<div><pre><code class="language-objectivec">/// 暂停视频
++ (void)pauseVideo;
+/// 播放视频
++ (void)startVideo;</code></pre></div>
+
+<p><img src="img/video_control.png" width="473" height="150" /></p>
+</blockquote>
+
+<h3 id="toc_69"><span id="webAnimation" >五、动画播放对环境要求</span></h3>
+
+<div><pre><code class="language-none">(1) 支持js
+(2) 支持http 及 https
+(3) 支持websocket
+(4) 当打开关闭遮罩通知功能时，WebView 需拦截 hybrid:协议的请求。否则会报错。若没进行拦截，请勿填写参数 hybrid 或设 hybrid 为 0。
+(5) Iframe，当前没使用 iframe，但为了将来的扩展，建议在 webview 中支持该特性。
+(6) 是部分 android 机型设置的字体过大会导致版面错乱的情况，android 客户端应设置 webview 的默认字体大小为 100。实现代码： webView.getSettings().setTextZoom(100)</code></pre></div>
+
+<h3 id="toc_70"><span id="gain-docs" >六、如何获取config配置信息与文档</span></h3>
+
+<blockquote>
+<h5 id="toc_71">1、<span id="gain-docs1" >在</span><a href="http://cn2.bussiness-admin-main.aisports.io/?r=1578033441586#/">开放平台</a>申请接入并审核通过后<a href="http://dev.bussiness-admin-main.xc.com/?r=1578543943970#/">方获取config配置</a></h5>
+
+<h5 id="toc_72">2、<span id="gain-docs2" >接入文档/SDK/Demo</span><a href="http://cn2.bussiness-admin-main.aisports.io/?r=1578033441586#/">下载链接</a></h5>
+
+<p><code>备注：如文档或SDK下载链接失效请联系客服人员</code></p>
+</blockquote>
+
+<h3 id="toc_73"><span id="config-desc" >七、config配置参数说明: </span></h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left">key</th>
+<th style="text-align: center">说明</th>
+<th style="text-align: center">是否必传</th>
+<th style="text-align: left">备注</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: left">XCSDKMainUrlKey</td>
+<td style="text-align: center">基础url</td>
+<td style="text-align: center"><font color='red'>必传</font></td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKImgUrlKey</td>
+<td style="text-align: center">资源url</td>
+<td style="text-align: center"><font color='red'>必传</font></td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKImUrlKey</td>
+<td style="text-align: center">push服务url</td>
+<td style="text-align: center"><font color='red'>必传</font></td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKTokenKey</td>
+<td style="text-align: center">登录token</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：无，<font color='red'>不传或传空即为匿名登录</font></td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKTypeKey</td>
+<td style="text-align: center">SDK类型(TAB/ICON版)</td>
+<td style="text-align: center"><font color='red'>必传</font></td>
+<td style="text-align: left">默认值：iOS-内部已隐式传入<font color='red'>无需再传</font>，<font color='red'>安卓-需显式传入</font></td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKAppTypeKey</td>
+<td style="text-align: center">App页面展示类型(ai体育/Gbet/虚拟体育页面样式)</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">ai/Gbet/vmSports默认值：ai</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKGidmKey</td>
+<td style="text-align: center">赛事Id</td>
+<td style="text-align: center"><font color='red'>跳主播页时必传</font></td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKAnchorIdKey</td>
+<td style="text-align: center">主播Id</td>
+<td style="text-align: center"><font color='red'>跳主播页时必传</font></td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKLaunchTitleKey</td>
+<td style="text-align: center">SDK启动标题</td>
+<td style="text-align: center"><font color='red'>必传</font></td>
+<td style="text-align: left">默认值：不传显示&quot;AI体育&quot;</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKLaunchSubTitlesKey</td>
+<td style="text-align: center">SDK启动子标题列表</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：见&quot;XCSDKManager.h&quot;</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKHandledSysRepairKey</td>
+<td style="text-align: center"><font color='red'>系统维护</font>是否由商户处理</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认：NO/0-内部处理</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKHandledTimeoutKey</td>
+<td style="text-align: center"><font color='red'>token超时</font>是否由商户处理</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认：NO/0-内部处理，<font color='red'>TAB版商户必传重新获取回传给SDK</font></td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKShowRechargeKey</td>
+<td style="text-align: center"><font color='red'>存款入口</font>展示配置</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认：NO/0-不展示</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKShowCashKey</td>
+<td style="text-align: center"><font color='red'>取款入口</font>展示配置</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认：NO/0-不展示</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKShowTransferKey</td>
+<td style="text-align: center"><font color='red'>转账入口</font>展示配置</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认：NO/0-不展示</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKMerchantIdKey</td>
+<td style="text-align: center">商户ID</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKShowTabbarOnLoadingKey</td>
+<td style="text-align: center">加载资源或启动是否展示底部tabbar</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：NO/0-不展示Tabbar，仅TAB版有效<font color='red'>开启后仅支持接入主页面</font></td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKHidesBottomBarWhenPushedKey</td>
+<td style="text-align: center">功能同hidesBottomBarWhenPushed</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：NO/0</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKUmAppKey</td>
+<td style="text-align: center">友盟AppKey</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKUmChannel</td>
+<td style="text-align: center">友盟channel</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：无</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKUseInnerUmAppKey</td>
+<td style="text-align: center">是否启用SDK内部友盟</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：NO/0</td>
+</tr>
+<tr>
+<td style="text-align: left">XCSDKListStyleKey</td>
+<td style="text-align: center">老鸟，新手，清爽进入设置。1-小白，2-老鸟，2-小白。传0或不传，进入时用户手动设置</td>
+<td style="text-align: center">非必传</td>
+<td style="text-align: left">默认值：0</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_74"><span id="common-problem" >八、常见问题 </span></h3>
+
+<h4 id="toc_75">1、iOS14兼容性：因SDK内部使用FlutterSDK的版本是1.22.6，此版本<font color='red'>Product Name不支持中文(非UTF8)</font>，配置中文(非UTF8)会导致crash，如宿主App需要设置中文(非UTF8)App名请使用<font color='red'>Display Name</font>来替代</h4>
+
+<h5 id="toc_76">Product Name配置：<font color='red'>Product Name配置中文(非UTF8)</font></h5>
+
+<p><img src="img/product_name.png" width="383" height="130" /></p>
+
+<h5 id="toc_77">Display Name配置</h5>
+
+<p><img src="img/displayName.png" width="502" height="169" /></p>
+
+<h3 id="toc_78"><span id="version-info" >九、版本更新说明 </span></h3>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left">更改日期</th>
+<th style="text-align: center">版本</th>
+<th style="text-align: center">更改人</th>
+<th style="text-align: left">版本说明</th>
+<th style="text-align: center">审核人</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: left">2019-11-01</td>
+<td style="text-align: center">1.0.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">创建</td>
+<td style="text-align: center">hank</td>
+</tr>
+<tr>
+<td style="text-align: left">2019-11-15</td>
+<td style="text-align: center">1.1.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.1需求相关</td>
+<td style="text-align: center">hank</td>
+</tr>
+<tr>
+<td style="text-align: left">2019-11-22</td>
+<td style="text-align: center">1.1.1V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">修改接入方式、Bug fixed</td>
+<td style="text-align: center">hank</td>
+</tr>
+<tr>
+<td style="text-align: left">2019-12-06</td>
+<td style="text-align: center">1.1.2V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">新增配置信息、Bug fixed</td>
+<td style="text-align: center">abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2019-12-13</td>
+<td style="text-align: center">1.1.3V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">优化接入流程、Bug fixed</td>
+<td style="text-align: center">abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2019-12-20</td>
+<td style="text-align: center">1.2.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.2需求相关、Bug fixed</td>
+<td style="text-align: center">alice/tab/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2019-12-27</td>
+<td style="text-align: center">1.2.1V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.2需求相关、Bug fixed</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-01-03</td>
+<td style="text-align: center">1.3.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">新增1.3版本功能与相关配置<br>Bug fixed</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-01-04</td>
+<td style="text-align: center">1.3.0V2</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">新增示例代码</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-01-09</td>
+<td style="text-align: center">1.3.0V3</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">去掉相关配置，优化流程</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-01-16</td>
+<td style="text-align: center">1.3.4V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">快捷投注</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-03-01</td>
+<td style="text-align: center">1.5.1V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.5.1新需求</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-03-09</td>
+<td style="text-align: center">1.5.1V2</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">边沿侧滑返回宿主App可配置</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-04-03</td>
+<td style="text-align: center">1.6.4V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.6.4需求</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-05-06</td>
+<td style="text-align: center">2.0.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">2.0.0需求</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-05-25</td>
+<td style="text-align: center">2.1.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">【新增】新增了5款体育游戏，随时随地畅玩，大奖等你拿！<br>【新增】新增了足球及棒球新增了多达40多种新玩法<br>【新增】联赛中新增了冠军玩法<br>【新增】新增了比分栏目，随时随刻掌握最新赛事信息<br>【优化】全新的2.1界面升级，加入了动效，优化了交互细节，等你来细细发现<br>【修复】修复了横屏锁屏时无法投注的Bug<br>【修复】修复了关注无法更新动态的Bug</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-05-25</td>
+<td style="text-align: center">2.2.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">2.2.0需求</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-06-12</td>
+<td style="text-align: center">2.2.0V2</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">SDK新增启动图配置项，优化内存</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-06-23</td>
+<td style="text-align: center">2.2.0V3</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">SDK减包</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-07-03</td>
+<td style="text-align: center">2.2.1V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">2.2.1 new feature</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-07-17</td>
+<td style="text-align: center">2.2.2V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">2.2.2 new feature</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-07-24</td>
+<td style="text-align: center">2.2.3V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">2.2.3 new feature</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-08-27</td>
+<td style="text-align: center">3.0.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">多数据源，新增页面方式集成方式</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-09-15</td>
+<td style="text-align: center">2.2.3V2<br>3.0.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">支持Swift</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-09-15</td>
+<td style="text-align: center">3.4.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.TabSdk启动方式API变更, 简化接入流程</br> 2.新增余额变化通知 </br>3.新增赛事详情页主播发红包</br>4.新增赛事详情注单分享</br>5.新增首屏推荐弹框</br>6.主播页面改版</br>7.修复已知bug</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-11-16</td>
+<td style="text-align: center">3.5.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">新增TAB版token失效回调<br>新增系统维护回调<br>新增视图控制器生命周期方法回调</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2020-12-02</td>
+<td style="text-align: center">3.6.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.新增串关联赛筛选<br>2.今日页新增查看全部选项<br>3.移除修改密码功能<br>4.优化投注错误提示<br>5.修改串关投注最低限额为2元<br>6.优化小视频盘口显示<br>7.比赛详情页新增更多功能<br>8.修复主播简介显示乱码问题<br>9.优化投注时危险球的交互与投注受理<br>10.修复热投人数显示错误问题<br>11.优化SDK登录失效回调事件(技术查看最新文档)<br>12.调整加载资源背景图取后台配置图片</td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-01-13</td>
+<td style="text-align: center">3.7.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.新增直接进入比赛主播直播间调用方法</br>2.新增横屏旋转回调事件</br>3.新增红包倒计时效果</br>4.新增提前结算功能</br>5.新增用户标签与主播标签</br>6.新增全部体育项栏目</br>7.优化比赛详情页性能</br>8.优化赔率点水交互效果</br>9.优化注单分享功能与跟投退单交互</br>10.优化列表盘口开关盘及时性</br>11.优化主播心愿单交互效果</br>12.优化比分、注单受理、主播开播、注单结算、红包等推送效果与性能</br>13.修复已知bug</br></td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-02-05</td>
+<td style="text-align: center">3.8.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.新增清除缓存</br>2.资源下载支持断点续传</br>3.Tab版新增配置</br>4.优化下载资源包，下载资源减少18M<br>5.修复已知bug，增强系统稳定性</br></td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-03-10</td>
+<td style="text-align: center">3.8.5V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.优化提前结算功能，提升结算成功率。2.新增足球注单记录查看赛果和比赛详情。</br>3.优化聊天室进入交互效果。 </br>4.修复比分遮罩层无法关闭bug。</br>5.修复比赛直播横屏投注金额输入错误问题。</br>6.修复系统维护时，页面显示错误问题。</br></td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-04-09</td>
+<td style="text-align: center">3.9.0V1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.新增主播送礼物功能<br>2.新增主播排行榜活动<br>3.搜索页新增联赛筛选功能，快速筛选想要的联赛比赛<br>4.所有优联赛筛选功能优化，方便快速找到指定联赛<br>5.优化视频播放速度，修复视频偶现变形问题<br>6.新增注单延期结算标记<br>7.优化直播视频播放，新增视频源切换<br>8.新增保留上一笔投注注单<br>9.取消安卓震动效果<br>10.修复ios内存未释放问题<br>11.新增篮球注单查看比赛赛果<br></td>
+<td style="text-align: center">isco/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-04-25</td>
+<td style="text-align: center">3.10.0</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.10.0需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-05-27</td>
+<td style="text-align: center">3.10.2</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.10.2需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-06-09</td>
+<td style="text-align: center">3.12.0</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.12.0需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-06-10</td>
+<td style="text-align: center">3.12.1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.12.1需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-06-12</td>
+<td style="text-align: center">3.12.2</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.12.2需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-06-13</td>
+<td style="text-align: center">3.12.3</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.12.3需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-06-23</td>
+<td style="text-align: center">3.12.4</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.12.4需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-08-18</td>
+<td style="text-align: center">3.13.0</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.13.0需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-09-07</td>
+<td style="text-align: center">3.13.1</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.13.1需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-10-18</td>
+<td style="text-align: center">3.14.6</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">3.14.6需求</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-11-20</td>
+<td style="text-align: center">3.14.6</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.添加老鸟，新手，清爽版设置</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+<tr>
+<td style="text-align: left">2021-11-29</td>
+<td style="text-align: center">3.14.6</td>
+<td style="text-align: center">eric</td>
+<td style="text-align: left">1.添加匿名登陆</td>
+<td style="text-align: center">ricky/abraham</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+</body>
+
+</html>

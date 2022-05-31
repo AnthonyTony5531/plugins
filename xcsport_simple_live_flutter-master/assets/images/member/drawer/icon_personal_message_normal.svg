@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_personal_message_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_personal_message_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico/个人中心/消息">
+            <circle id="椭圆形" fill="#5078FF" fill-rule="evenodd" cx="23.2" cy="20" r="5.6"></circle>
+            <path d="M7.32410155,25.6 L4.58168057,28.5044818 C4.43054878,28.6645446 4.2201384,28.7552572 4,28.7552572 C3.5581722,28.7552572 3.2,28.397085 3.2,27.9552572 L3.2,24.4 L3.2,9.6 C3.2,7.8326888 4.6326888,6.4 6.4,6.4 L25.6,6.4 C27.3673112,6.4 28.8,7.8326888 28.8,9.6 L28.8,22.4 C28.8,24.1673112 27.3673112,25.6 25.6,25.6 L7.32410155,25.6 Z M4.8,25.9427028 L6.63430618,24 L25.6,24 C26.4836556,24 27.2,23.2836556 27.2,22.4 L27.2,9.6 C27.2,8.7163444 26.4836556,8 25.6,8 L6.4,8 C5.5163444,8 4.8,8.7163444 4.8,9.6 L4.8,25.9427028 Z" id="形状结合" fill="#353535" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#353535" fill-rule="evenodd" x="8" y="11.2" width="16" height="1.6" rx="0.5"></rect>
+            <rect id="矩形备份" fill="#353535" fill-rule="evenodd" x="8" y="16" width="8" height="1.6" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>

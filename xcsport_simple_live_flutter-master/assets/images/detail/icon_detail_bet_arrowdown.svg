@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_detail_bet_arrowdown</title>
+    <g id="icon_detail_bet_arrowdown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
+        <g id="icon/投注项展开备份">
+            <path d="M8.00037898,8.79619388 L2.42857094,6.12214432 C1.93065892,5.88318393 1.33330581,6.0931057 1.09434542,6.59101772 C0.855385036,7.08892974 1.06530681,7.68628285 1.56321883,7.92524324 L7.56726309,10.8067337 C7.84052889,10.9378808 8.15853021,10.9380069 8.43189995,10.8070767 L14.4481734,7.92558616 C14.9462748,7.68702079 15.1566704,7.08983438 14.918105,6.59173298 C14.6795397,6.09363157 14.0823532,5.88323603 13.5842518,6.1218014 L8.00037898,8.79619388 Z" id="路径-10" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+        </g>
+    </g>
+</svg>

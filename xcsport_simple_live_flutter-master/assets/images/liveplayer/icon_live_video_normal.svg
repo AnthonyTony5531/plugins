@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_live_video_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="7" cy="7" r="7"></circle>
+    </defs>
+    <g id="icon_live_video_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico/16/视频直播">
+            <g id="主播备份-2" transform="translate(1.000000, 1.000000)">
+                <g id="形状结合">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill="#E5E6E8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <path d="M14,7.89840533 C13.4675611,11.0112843 11.0112843,13.4675611 7.8984053,14 C7.88291536,13.8301203 7.875,13.6580512 7.875,13.4841335 C7.875,10.3862946 10.3862946,7.875 13.4841335,7.875 C13.6580513,7.875 13.8301203,7.88291531 14,7.89840533 Z" fill="#FFFFFF" fill-rule="nonzero" opacity="0.200000003" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M8.39163869,4.64186385 L10.861361,8.75806764 C11.0271141,9.0343228 10.9375344,9.3926413 10.6612793,9.55839442 C10.5706203,9.61278978 10.4668824,9.6415235 10.3611567,9.6415235 L5.42171216,9.6415235 C5.09954605,9.6415235 4.83837883,9.3803563 4.83837883,9.05819017 C4.83837883,8.95246453 4.86711257,8.84872662 4.92150796,8.75806764 L7.39123024,4.64186385 C7.55698333,4.36560869 7.91530176,4.27602906 8.19155699,4.44178216 C8.27366092,4.49104452 8.34237631,4.55975991 8.39163869,4.64186385 Z" id="三角形" fill="#FFFFFF" fill-rule="nonzero" transform="translate(7.891479, 7.000044) rotate(90.000000) translate(-7.891479, -7.000044) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

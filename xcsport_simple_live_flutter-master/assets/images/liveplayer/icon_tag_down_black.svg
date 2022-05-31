@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="8px" viewBox="0 0 16 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_tag_down_black</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="icon_tag_down_black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-4">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="蒙版"></g>
+            <g mask="url(#mask-2)" fill="#000000" id="形状结合" opacity="0.800000012">
+                <g transform="translate(-48.000000, -108.000000)">
+                    <path d="M61.7857143,108 L58.5235354,113.0745 C58.2911375,113.436008 57.9837807,113.743365 57.6222728,113.975763 C56.2285626,114.87172 54.3724211,114.468211 53.4764646,113.0745 L50.2142857,108 L5,108 C2.23857625,108 3.38176876e-16,105.761424 0,103 L0,5 C-3.38176876e-16,2.23857625 2.23857625,1.81949667e-12 5,1.8189894e-12 L101,1.8189894e-12 C103.761424,1.81848214e-12 106,2.23857625 106,5 L106,103 C106,105.761424 103.761424,108 101,108 L61.7857143,108 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

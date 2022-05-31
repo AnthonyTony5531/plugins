@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="48px" viewBox="0 0 55 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_personal_follow_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_personal_follow_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/关注/已关注备份" fill="#1A2952">
+            <g id="icon/关注/互相关注" transform="translate(21.000000, 8.000000)" fill-rule="evenodd">
+                <path d="M1.5,5.00001506 L11.0992961,5.00001506 L8.51671444,2.88699371 C8.30299203,2.71212992 8.2714909,2.39711857 8.44635468,2.18339617 C8.62121847,1.96967376 8.93622982,1.93817262 9.14995223,2.11303641 L12.8166189,5.11303641 C13.1802954,5.41058992 12.9698922,6.00001506 12.5,6.00001506 L1.5,6.00001506 C1.22385763,6.00001506 1,5.77615744 1,5.50001506 C1,5.22387269 1.22385763,5.00001506 1.5,5.00001506 Z M2.90169713,9 L5.48427879,11.1130214 C5.69800119,11.2878851 5.72950233,11.6028965 5.55463854,11.8166189 C5.37977475,12.0303413 5.0647634,12.0618424 4.851041,11.8869786 L1.18437433,8.88697865 C0.820697818,8.58942514 1.03110101,8 1.50099322,8 L12.5009932,8 C12.7771356,8 13.0009932,8.22385763 13.0009932,8.5 C13.0009932,8.77614237 12.7771356,9 12.5009932,9 L2.90169713,9 Z" id="形状结合"></path>
+            </g>
+            <text id="互相关注" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" letter-spacing="0.229999971">
+                <tspan x="3" y="37">互相关注</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

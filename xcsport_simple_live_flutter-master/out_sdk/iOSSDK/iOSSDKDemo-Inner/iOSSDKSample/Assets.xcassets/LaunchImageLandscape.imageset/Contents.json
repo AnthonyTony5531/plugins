@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "LaunchImageLandscape~iphone.png",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "LaunchImageLandscape~ipad.png",
+      "idiom" : "ipad"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

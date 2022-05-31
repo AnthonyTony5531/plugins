@@ -1,0 +1,99 @@
+Index: lib/util/scanner/qr_scanner/impl/qrscanner_impl.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/util/scanner/qr_scanner/impl/qrscanner_impl.dart	(date 1627973783000)
++++ lib/util/scanner/qr_scanner/impl/qrscanner_impl.dart	(date 1627973783000)
+@@ -0,0 +1,35 @@
++import 'dart:io';
++
++import 'dart:typed_data';
++import 'package:qrscan/qrscan.dart' as _scanner;
++
++import '../qr_scanner.dart';
++
++///@autho king
++///@date 8/3/21
++///
++///
++//禁止外面依赖调用这个类
++class QrScannerImpl extends QrScanner{
++
++  @override
++//扫描二维码图片
++  Future<String> scanQrImage()async{
++    return _scanner.scan();
++  }
++
++
++//生成二维码Uint8List,用于图片加载
++  Future<Uint8List> generateQrCode(String data)async{
++    return _scanner.generateBarCode(data);
++  }
++
++
++//解析二维码图片，读取文字数据
++  Future<String> decodeQrImage(File file)async{
++    Uint8List bytes = file.readAsBytesSync();
++    return _scanner.scanBytes(bytes);
++  }
++
++
++}
+\ No newline at end of file
+Index: lib/util/scanner/qr_scanner/impl/qr_scanner_stub.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/util/scanner/qr_scanner/impl/qr_scanner_stub.dart	(date 1627973679000)
++++ lib/util/scanner/qr_scanner/impl/qr_scanner_stub.dart	(date 1627973679000)
+@@ -0,0 +1,10 @@
++
++import 'package:common_component/util/scanner/qr_scanner/impl/qrscanner_impl.dart';
++
++import '../qr_scanner.dart';
++
++///@autho king
++///@date 8/3/21
++///
++///
++QrScanner createQrScanner()=> QrScannerImpl();
+\ No newline at end of file
+Index: lib/util/scanner/qr_scanner/qr_scanner.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/util/scanner/qr_scanner/qr_scanner.dart	(date 1627973556000)
++++ lib/util/scanner/qr_scanner/qr_scanner.dart	(date 1627973556000)
+@@ -0,0 +1,27 @@
++import 'dart:io';
++
++import 'dart:typed_data';
++
++import 'impl/qr_scanner_stub.dart';
++
++///@autho king
++///@date 8/3/21
++///
++
++
++abstract  class QrScanner  {
++
++  factory()=>createQrScanner();
++
++
++  //扫描二维码图片
++  Future<String> scanQrImage();
++
++//生成二维码Uint8List,用于图片加载
++  Future<Uint8List> generateQrCode(String data);
++
++
++//解析二维码图片，读取文字数据
++  Future<String> decodeQrImage(File file);
++
++}
+\ No newline at end of file

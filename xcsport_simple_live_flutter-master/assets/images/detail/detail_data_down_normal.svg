@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_data_down_normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_data_down_normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico/角球备份-8">
+            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="18" height="18"></rect>
+            <path d="M12,9 L12,15 C12,16.1045695 11.1045695,17 10,17 L8,17 C6.8954305,17 6,16.1045695 6,15 L6,9 L3.41928177,9 C2.86699702,9 2.41928177,8.55228475 2.41928177,8 C2.41928177,7.73428698 2.52503237,7.47949888 2.71318886,7.2918808 L8.29387274,1.72716606 C8.68417741,1.33797826 9.31580728,1.33799362 9.70609301,1.72720041 L15.286234,7.29191515 C15.6772985,7.68189852 15.6781749,8.31506289 15.2881915,8.70612736 C15.1005762,8.89426278 14.8458028,9 14.5801067,9 L12,9 Z" id="形状结合" fill="#FF4000" transform="translate(8.999694, 9.217643) scale(1, -1) translate(-8.999694, -9.217643) "></path>
+        </g>
+    </g>
+</svg>

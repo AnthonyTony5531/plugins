@@ -1,0 +1,15 @@
+import 'package:common_component/mvvm/viewmodel/stateless_viewmodel.dart';
+
+import '{style_file}.dart';
+
+class {VM} extends StatelessViewModel<{Style}>{
+
+  //参数传给view时候，在这初始化统一入口初始化，自己要啥扩展参数
+  {VM}.create(){
+    super.init();
+  }
+
+  @override
+  List<{Style}> get styleList => [{Style}()];
+
+}

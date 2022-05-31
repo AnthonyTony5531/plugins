@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebView SDK Demo</title>
+</head>
+<body>
+  获取用户信息
+  <div>结果：<div class="userinfo"></div></div>
+  获取网络状态
+  <div>结果：<div class="netState"></div></div>
+</body>
+<script src="./lib/base64.js" type="text/javascript" charset="utf-8"></script>
+<script src="./lib/ai_webview_sdk_v1.0.0.js" type="text/javascript" charset="utf-8"></script>
+<script>
+  function isApp() {
+    return !!window.xcjsmanager
+  }
+  if (isApp()) {
+      xcFlutterJsSDk.request(new XCJSRequestParam('common', 'userinfo', null, function (response) {
+        document.querySelector(".userinfo").innerHTML = JSON.stringify(response);
+      }));
+      xcFlutterJsSDk.request(new XCJSRequestParam('common', 'netState', null, function (response) {
+        document.querySelector('.netState').innerHTML = "state:" + response.state;
+      }));
+  }
+</script>
+</html>

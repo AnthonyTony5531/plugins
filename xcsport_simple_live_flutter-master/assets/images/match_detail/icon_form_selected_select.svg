@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_form_selected_select</title>
+    <g id="icon_form_selected_select" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组">
+            <circle id="椭圆形" fill="#11D664" cx="8" cy="8" r="8"></circle>
+            <path d="M4.77465886,8.22874863 C4.44989679,8 4.10280288,8.09731146 3.99464784,8.22874863 C3.88649281,8.3601858 3.93732393,8.75481013 4.1880282,9.02733138 L6.7346884,11.7956091 C6.98515692,12.0678741 7.39116329,12.0681675 7.64196471,11.7962649 L12.9195921,5.86781895 C13.1706296,5.5956604 13.2305147,5.41867878 13.084758,5.25814306 C12.9390012,5.09760734 12.6450947,5.17612753 12.3940572,5.44828608 L7.27490162,9.64113056 L4.77465886,8.22874863 Z" id="路径-7" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

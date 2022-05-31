@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>redbag_pop_x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.9%" y="-12.9%" width="125.8%" height="125.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="redbag_pop_x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2" filter="url(#filter-1)" transform="translate(1.000000, 0.000000)">
+            <g id="编组-4备份" opacity="0.800000012" transform="translate(0.062270, 0.062270)" fill-rule="nonzero">
+                <path d="M15.0108108,0.25 C6.85864011,0.25 0.25,6.85864011 0.25,15.0108108 C0.25,23.1629815 6.85864011,29.7716216 15.0108108,29.7716216 C23.1629815,29.7716216 29.7716216,23.1629815 29.7716216,15.0108108 C29.7716216,6.85864011 23.1629815,0.25 15.0108108,0.25 Z M15.0108108,1.75 C22.3345544,1.75 28.2716216,7.68706723 28.2716216,15.0108108 C28.2716216,22.3345544 22.3345544,28.2716216 15.0108108,28.2716216 C7.68706723,28.2716216 1.75,22.3345544 1.75,15.0108108 C1.75,7.68706723 7.68706723,1.75 15.0108108,1.75 Z" id="椭圆形" fill="#FFFFFF"></path>
+                <path d="M15.0108108,1.75 C22.3345544,1.75 28.2716216,7.68706723 28.2716216,15.0108108 C28.2716216,22.3345544 22.3345544,28.2716216 15.0108108,28.2716216 C7.68706723,28.2716216 1.75,22.3345544 1.75,15.0108108 C1.75,7.68706723 7.68706723,1.75 15.0108108,1.75 Z" id="路径" fill="#000000" opacity="0.100000001"></path>
+            </g>
+            <g id="ico/live备份" transform="translate(7.227027, 7.227027)">
+                <path d="M8.05307248,7.09273119 L13.8015912,1.34421249 C14.0619407,1.08386296 14.4840507,1.08386296 14.7444002,1.34421249 C15.0047497,1.60456202 15.0047497,2.026672 14.7444002,2.28702153 L8.99588152,8.03554024 L14.7444002,13.7840589 C15.0047497,14.0444085 15.0047497,14.4665185 14.7444002,14.726868 C14.4840507,14.9872175 14.0619407,14.9872175 13.8015912,14.726868 L8.05307248,8.97834928 L2.30455377,14.726868 C2.04420424,14.9872175 1.62209426,14.9872175 1.36174473,14.726868 C1.1013952,14.4665185 1.1013952,14.0444085 1.36174473,13.7840589 L7.11026343,8.03554024 L1.36174473,2.28702153 C1.1013952,2.026672 1.1013952,1.60456202 1.36174473,1.34421249 C1.62209426,1.08386296 2.04420424,1.08386296 2.30455377,1.34421249 L8.05307248,7.09273119 Z" id="形状结合" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <rect id="矩形" fill="#D8D8D8" fill-rule="evenodd" opacity="0" x="0" y="0" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
